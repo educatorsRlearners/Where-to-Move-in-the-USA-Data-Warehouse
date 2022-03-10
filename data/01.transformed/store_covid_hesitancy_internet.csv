@@ -1,0 +1,525 @@
+store_name,street,city,state,zip,final_zip_pred,Population,Zip,County,AverageMbps,FastestAverageMbps
+Trader Joe's Sunnyvale (68),316 West El Camino Real,Sunnyvale,CA,94087,0.0470502706890842,54293.0,94087,Santa Clara,101.59,243.35
+Trader Joe's Aliso Viejo (195),26541 Aliso Creek Rd,Aliso Viejo,CA,92656,0.0692187613040097,49046.0,92656,Orange,116.61,297.85
+Trader Joe's Brookline (501),1317 Beacon St,Brookline,MA,02446,0.0322065313702043,29311.0,02446,Norfolk,113.27,268.97
+Trader Joe's Park Ridge (698),190 N NW Highway,Park Ridge,IL,60068,0.0708671883656233,37475.0,60068,Cook,147.68,295.55
+Trader Joe's Scottsdale (94),6202 N Scottsdale Rd,Scottsdale,AZ,85253,0.1480782308588405,17047.0,85253,Maricopa,156.16,336.65
+Trader Joe's Annapolis (650),160 F Jennifer Rd,Annapolis,MD,21401,0.1253924092849092,36012.0,21401,Anne Arundel,137.16,348.81
+Trader Joe's San Antonio (451),350 East Basse Road,San Antonio,TX,78209,0.1033838236607299,39197.0,78209,Bexar,141.61,355.2
+Trader Joe's Chicago (688),3745 N Lincoln Ave,Chicago,IL,60613,0.0405906373958685,48281.0,60613,Cook,118.29,298.28
+Trader Joe's Queen Creek (286),21186 S. Ellsworth Loop Rd,Queen Creek,AZ,85142,0.3410066791355816,48870.0,85142,Maricopa,122.73,299.66
+Trader Joe's Newport Beach (125),8086 E Pacific Coast Hwy,Newport Beach,CA,92657,0.0673912586740729,9741.0,92657,Orange,95.65,166.43
+Trader Joe's Williamsburg (657),5000 Settlers Market Blvd,Williamsburg,VA,23188,0.0660911246100614,38733.0,23188,James City,97.48,244.29
+Trader Joe's Pleasanton (66),3903 Santa Rita Road,Pleasanton,CA,94588,0.0549156973661414,30842.0,94588,Alameda,86.32,234.7
+Trader Joe's Media (637),12 E State St,Media,PA,19063,0.0759294236163389,35704.0,19063,Delaware,104.35,293.46
+Trader Joe's Bloomington (724),4270 W 78th St,Bloomington,MN,55435,0.0438768715284281,11592.0,55435,Hennepin,77.77,199.7
+Trader Joe's Hanover (513),1775 Washington St,Hanover,MA,02339,0.0870441462970584,13879.0,02339,Plymouth,96.49,302.09
+Trader Joe's Delray Beach (771),1851 S Federal Highway #500,Delray Beach,FL,33483,0.1047841910211872,12093.0,33483,Palm Beach,142.67,232.17
+Trader Joe's Costa Mesa (35),640 W 17th St,Costa Mesa,CA,92627,0.0775322374224249,61510.0,92627,Orange,162.12,432.45
+Trader Joe's Mission Viejo (126),25410 Marguerite Pkwy,Mission Viejo,CA,92692,0.0854195348036681,47222.0,92692,Orange,137.03,366.36
+Trader Joe's Orland Park (686),14924 S La Grange Rd,Orland Park,IL,60462,0.1287967213835456,38723.0,60462,Cook,139.82,311.48
+Trader Joe's Danbury (525),113 Mill Plain Rd,Danbury,CT,06811,0.1060823164785123,31400.0,06811,Fairfield,149.54,404.56
+Trader Joe's Beaverton (141),11753 SW Beaverton Hillsdale Hwy,Beaverton,OR,97005,0.0898430213003433,24906.0,97005,Washington,108.48,502.43
+Trader Joe's Lake Oswego (142),15391 SW Bangy Rd,Lake Oswego,OR,97035,0.1060736204150903,23912.0,97035,Clackamas,85.8,206.69
+Trader Joe's The Woodlands (428),10868 Kuykendahl Road,The Woodlands,TX,77381,0.1776232629987372,34961.0,77381,Montgomery,140.49,337.21
+Trader Joe's Fort Myers (784),4983 S. Cleveland Avenue,Fort Myers,FL,33907,0.2396790281386746,22138.0,33907,Lee,79.66,238.09
+Trader Joe's Redondo Beach (38),1761 S Elena Ave,Redondo Bch.,CA,90277,0.0584306428968965,35293.0,90277,Los Angeles,99.28,229.67
+Trader Joe's Ashburn (619),44755 Brimfield Dr,Ashburn,VA,20147,0.0635460744379808,54086.0,20147,Loudoun,148.61,487.89
+Trader Joe's Chico (199),801 East Ave,Chico,CA,95926,0.1752789349142779,37725.0,95926,Butte,110.28,263.01
+Trader Joe's Belle Meade (739),90 White Bridge Rd,Nashville,TN,37205,0.0430715553875569,24057.0,37205,Davidson,135.19,322.99
+Trader Joe's Royal Oak (674),27880 Woodward Ave,Royal Oak,MI,48067,0.0517661417214288,24458.0,48067,Oakland,75.61,101.04
+Trader Joe's Atlanta (730),931 Monroe Dr,Atlanta,GA,30308,0.0905718115797296,15413.0,30308,Fulton,71.61,160.12
+Trader Joe's Modesto (9),3250 Dale Road,Modesto,CA,95356,0.1494790300301072,30918.0,95356,Stanislaus,64.26,172.96
+Trader Joe's Pinole (230),2742 Pinole Valley Rd,Pinole,CA,94564,0.1101405966722783,18287.0,94564,Contra Costa,128.15,233.71
+Trader Joe's Asheville (740),120 Merrimon Ave,Asheville,NC,28801,0.1020375986643483,15019.0,28801,Buncombe,88.89,224.82
+Trader Joe's Larchmont (532),1260 Boston Post Rd,Larchmont,NY,10538,0.0370009101305942,16597.0,10538,Westchester,138.06,428.29
+Trader Joe's Issaquah (138),975 NW Gilman Blvd,Issaquah,WA,98027,0.0624519773268725,26141.0,98027,King,137.79,383.85
+Trader Joe's Scripps Ranch (221),9850 Hibert St,San Diego,CA,92131,0.0705135098041805,32787.0,92131,San Diego,92.73,228.38
+Trader Joe's Upper West Side (545),670 Columbus Ave,New York,NY,10025,0.0565890989137601,94600.0,10025,New York,139.28,301.69
+Trader Joe's W Des Moines (721),6305 Mills Civic Pkwy,West Des Moines,IA,50266,0.1227820093892956,23625.0,50266,Polk,97.73,234.63
+Trader Joe's Bethesda (645),6831 Wisconsin Ave,Bethesda,MD,20815,0.0156593646980448,29082.0,20815,Montgomery,139.83,329.96
+Trader Joe's Leawood (723),4201 W 119th St,Leawood,KS,66209,0.0636448912387516,19561.0,66209,Johnson,98.15,303.64
+Trader Joe's Newbury Park (243),125 N Reino Road,Thousand Oaks,CA,91320,0.0909707645473735,44274.0,91320,Ventura,113.92,230.36
+Trader Joe's San Diego - Hillcrest (26),1090 University Avenue,San Diego,CA,92103,0.0678570493771276,31066.0,92103,San Diego,130.75,320.36
+Trader Joe's Morgan Hill (202),17035 Laurel Rd,Morgan Hill,CA,95037,0.0621858882132975,45579.0,95037,Santa Clara,92.71,245.59
+Trader Joe's Montrose (52),2462 Honolulu Ave,Montrose,CA,91020,0.1000802008967129,8415.0,91020,Los Angeles,68.69,195.32
+Trader Joe's Arlington (505),1427 Massachusetts Ave,Arlington,MA,02476,0.0249407026728476,16532.0,02476,Middlesex,121.67,368.28
+Trader Joe's Seattle - Queen Anne Hill (135),1916 Queen Anne Ave N,Seattle,WA,98109,0.040864739973429,20715.0,98109,King,102.34,276.21
+Trader Joe's Miami Beach (779),1683 West Ave,Miami Beach,FL,33139,0.1158659684727395,38613.0,33139,Miami-Dade,166.46,322.74
+Trader Joe's Needham Heights (504),958 Highland Ave,Needham,MA,02494,0.0222090940637818,8955.0,02494,Norfolk,169.11,401.86
+Trader Joe's Pasadena (51),610 S Arroyo Pkwy,Pasadena,CA,91105,0.0355024158782792,11254.0,91105,Los Angeles,75.72,197.5
+Trader Joe's Wayne (632),171 E Swedesford Rd,Wayne,PA,19087,0.0683038895775926,32225.0,19087,Chester,156.76,482.57
+Trader Joe's Germantown (738),2130 Exeter Rd.,Germantown,TN,38138,0.0867254109191903,24045.0,38138,Shelby,60.72,186.5
+Trader Joe's Shoreline (270),1201 N 175th St,Shoreline,WA,98133,0.0586219285953501,44555.0,98133,King,81.28,203.83
+Trader Joe's Campbell (73),1875 Bascom Ave,Campbell,CA,95008,0.0758318947365934,45260.0,95008,Santa Clara,90.32,225.01
+Trader Joe's Palm Desert (3),44250 Town Center Way,Palm Desert,CA,92260,0.0659793533835304,31753.0,92260,Riverside,98.0,128.63
+Trader Joe's Darien (522),436 Boston Post Rd,Darien,CT,06820,0.0516519084490148,20732.0,06820,Fairfield,93.38,226.08
+Trader Joe's Fresno (8),8478 N. Friant Road,Fresno,CA,93720,0.17729134736135002,45191.0,93720,Fresno,94.3,230.58
+Trader Joe's Huntington Harbour (244),16821 Algonquin St,Huntington Beach,CA,92649,0.1009828068712704,32463.0,92649,Orange,97.34,226.9
+Trader Joe's Buckhead (735),3183 Peachtree Rd,Atlanta,GA,30305,0.0863997449762277,22999.0,30305,Fulton,119.02,316.3
+Trader Joe's Rochester Hills (668),3044 Walton Blvd,Rochester Hills,MI,48309,0.0839208639285103,29135.0,48309,Oakland,77.01,223.94
+Trader Joe's Nashua (507),262 Daniel Webster HWY,Nashua,NH,03060,0.1574464090103215,29357.0,03060,Hillsborough,109.4,260.57
+Trader Joe's Hyannis (514),655 Iyannough Road Rt 132,Hyannis,MA,02601,0.1657841611834037,14089.0,02601,Barnstable,99.95,273.05
+Trader Joe's Wilmington (747),1437 S College Rd,Wilmington,NC,28403,0.1239302792517296,36063.0,28403,New Hanover,115.89,361.53
+Trader Joe's Studio City (122),11976 Ventura Blvd,Studio City,CA,91604,0.0544957472598414,29034.0,91604,Los Angeles,132.56,259.65
+Trader Joe's Silverdale (158),9991 Mickelberry Rd,Silverdale,WA,98383,0.0842270203466416,19727.0,98383,Kitsap,142.67,473.98
+Trader Joe's San Francisco - Pacific Place (225),10 4th Street,San Francisco,CA,94103,0.0650419953871938,27170.0,94103,San Francisco,124.52,321.84
+Trader Joe's San Francisco - 9th St (78),555 9th St,San Francisco,CA,94103,0.0650419953871938,27170.0,94103,San Francisco,124.52,321.84
+Trader Joe's Hastings Ranch (171),467 N Rosemead Blvd,Pasadena,CA,91107,0.0659289084891805,32940.0,91107,Los Angeles,99.19,222.37
+Trader Joe's Pasadena (East) (32),3035 E Huntington Dr,Pasadena,CA,91107,0.0659289084891805,32940.0,91107,Los Angeles,99.19,222.37
+Trader Joe's Dallas North (401),7939 Walnut Hill Lane,Dallas,TX,75230,0.0910553061562697,26934.0,75230,Dallas,145.92,314.9
+Trader Joe's Denver Wine (310),790 N Colorado Blvd,Denver,CO,80206,0.0518512480957259,21521.0,80206,Denver,109.14,300.72
+Trader Joe's Denver Grocery (300),750 N Colorado Blvd,Denver,CO,80206,0.0518512480957259,21521.0,80206,Denver,109.14,300.72
+Trader Joe's Chicago - Diversey Pkwy (703),667 W Diversey Pkwy,Chicago,IL,60614,0.0530017299405959,66617.0,60614,Cook,130.06,283.35
+Trader Joe's Chicago - Lincoln Park (691),1840 N Clybourn Ave,Chicago,IL,60614,0.0530017299405959,66617.0,60614,Cook,130.06,283.35
+Trader Joe's Freehold (590),4331 Route 9 Unit 3,Freehold,NJ,07728,0.1644686567987345,56257.0,07728,Monmouth,91.77,197.66
+Trader Joe's Lafayette (115),3649 Mt Diablo Blvd,Lafayette,CA,94549,0.0638826403202233,26864.0,94549,Contra Costa,162.11,324.78
+Trader Joe's Petaluma (107),169 N McDowell Blvd,Petaluma,CA,94954,0.0666079090153054,37365.0,94954,Sonoma,106.34,301.3
+Trader Joe's Meridian (361),2986 N. Eagle RD.,Meridian,ID,83646,0.1445046737064602,47098.0,83646,Ada,56.33,170.44
+Trader Joe's Austin - Rollingwood (453),2805 Bee Cave Rd,Austin,TX,78746,0.0648048740174686,26928.0,78746,Travis,163.02,306.79
+Trader Joe's Madison (712),1810 Monroe St,Madison,WI,53711,0.0539933220653126,45728.0,53711,Dane,81.49,211.31
+Trader Joe's Princeton (607),3528 Brunswick Pike,Princeton,NJ,08540,0.0331820329441309,47115.0,08540,Mercer,178.79,495.11
+Trader Joe's Louisville Grocery (628),4600 Shelbyville Rd Ste 111,Louisville,KY,40207,0.1044454381824438,29745.0,40207,Jefferson,102.98,314.47
+Trader Joe's Louisville Wine (625),4600 Shelbyville Rd Ste 112,Louisville,KY,40207,0.1044454381824438,29745.0,40207,Jefferson,102.98,314.47
+Trader Joe's Pittsburgh (638),6343 Penn Ave,Pittsburgh,PA,15206,0.0838124196860163,28615.0,15206,Allegheny,103.94,245.01
+Trader Joe's Wayne (603),910 Hamburg Turnpike,Wayne,NJ,07470,0.0761133107957142,54717.0,07470,Passaic,80.32,219.07
+Trader Joe's Brea (11),2500 E Imperial Hwy,Brea,CA,92821,0.093804977757964,35533.0,92821,Orange,93.8,229.73
+Trader Joe's Kansas City (720),8600 Ward Pkwy,Kansas City,MO,64114,0.0845738309255517,23158.0,64114,Jackson,146.02,426.39
+Trader Joe's Kalamazoo (708),5099 Century Ave,Kalamazoo,MI,49006,0.0769509344874124,26455.0,49006,Kalamazoo,69.99,113.25
+Trader Joe's Camarillo (114),363 Carmen Dr,Camarillo,CA,93010,0.1629858741543572,42901.0,93010,Ventura,107.6,234.37
+Trader Joe's Fremont (77),39324 Argonaut Way,Fremont,CA,94538,0.0926660837610253,61148.0,94538,Alameda,78.11,199.8
+Trader Joe's Jacksonville Beach (760),4180 S 3rd St,Jacksonville Beach,FL,32250,0.2657451215690001,25356.0,32250,Duval,106.83,260.61
+Trader Joe's Mall of Orange (46),2114 N Tustin St,Orange,CA,92865,0.113203907835408,19704.0,92865,Orange,81.13,224.31
+Trader Joe's Long Island City (565),2243 Jackson Ave,Long Island City,NY,11101,0.0738749386644311,25484.0,11101,Queens,160.41,468.98
+Trader Joe's Fairfield (523),2258 Black Rock Turnpike,Fairfield,CT,06825,0.0498057812744926,21123.0,06825,Fairfield,122.34,286.22
+Trader Joe's West Newton (509),1121 Washington St,West Newton,MA,02465,0.0322483908827181,11710.0,02465,Middlesex,131.68,353.13
+Trader Joe's Glen Ellyn (680),680 Roosevelt Rd,Glen Ellyn,IL,60137,0.0743742875266302,37805.0,60137,DuPage,131.77,284.74
+Trader Joe's Washington - 25th St (653),1101 25th Street NW,Washington,DC,20037,0.0427242356487402,14642.0,20037,District of Columbia,70.48,192.76
+Trader Joe's Brooklyn (558),130 Court St,Brooklyn,NY,11201,0.0579064564045284,51128.0,11201,Kings,132.58,340.41
+Trader Joe's Brooklyn - City Point (547),445 Gold St,Brooklyn,NY,11201,0.0579064564045284,51128.0,11201,Kings,132.58,340.41
+Trader Joe's Claremont (214),475 W Foothill Blvd,Claremont,CA,91711,0.0531171800023053,35705.0,91711,Los Angeles,88.62,227.07
+Trader Joe's Fort Worth (404),2701 S Hulen St,Fort Worth,TX,76109,0.1506802562988636,21710.0,76109,Tarrant,104.48,301.6
+Trader Joe's Concord (83),785 Oak Grove Rd,Concord,CA,94518,0.0598591690128658,26778.0,94518,Contra Costa,77.34,225.08
+Trader Joe's Monrovia (112),604 W Huntington Dr,Monrovia,CA,91016,0.0536467807884242,40598.0,91016,Los Angeles,93.65,230.32
+Trader Joe's Metairie (755),2949 Veterans Blvd,Metairie,LA,70002,0.1305497838916152,18879.0,70002,Jefferson,113.44,235.35
+Trader Joe's Ventura - Midtown (218),103 S Mills Rd,Ventura,CA,93003,0.1247746212370379,50474.0,93003,Ventura,83.34,214.84
+Trader Joe's Ventura (45),1795 S. Victoria Ave,Ventura,CA,93003,0.1247746212370379,50474.0,93003,Ventura,83.34,214.84
+Trader Joe's Yorba Linda (176),19655 Yorba Linda Blvd,Yorba Linda,CA,92886,0.096543602482717,46564.0,92886,Orange,99.65,245.73
+Trader Joe's San Mateo - Grant St (67),1820-22 S Grant Street,San Mateo,CA,94402,0.0304551636121397,23981.0,94402,San Mateo,98.52,243.02
+Trader Joe's San Francisco - North Beach (19),401 Bay St,San Francisco,CA,94133,0.0442456688585026,26237.0,94133,San Francisco,132.7,324.88
+Trader Joe's Novato (198),7514 Redwood Blvd,Novato,CA,94945,0.0518848999569023,17167.0,94945,Marin,105.89,265.2
+Trader Joe's Millbrae (170),765 Broadway,Millbrae,CA,94030,0.0340808513366282,21536.0,94030,San Mateo,160.13,520.91
+Trader Joe's Cambridge (502),748 Memorial Dr,Cambridge,MA,02139,0.0270943581757472,36349.0,02139,Middlesex,87.75,230.36
+Trader Joe's Gilbert (SanTan) (285),1779 E. Williams Field Rd.,Gilbert,AZ,85295,0.1878461771735667,38332.0,85295,Maricopa,126.0,314.79
+Trader Joe's Henderson (97),2716 N Green Valley Pkwy,Henderson,NV,89014,0.2000967105607284,36922.0,89014,Clark,127.65,305.46
+Trader Joe's Sacramento (175),5000 Folsom Blvd,Sacramento,CA,95819,0.0790730760768282,17141.0,95819,Sacramento,64.78,188.92
+Trader Joe's Brentwood (692),48 Brentwood Promenade Court,Brentwood,MO,63144,0.0388147323548482,8825.0,63144,St. Louis County,134.28,224.97
+Trader Joe's San Antonio - Sonterra Village (455),403 N Loop 1604 W,San Antonio,TX,78232,0.1047469421279571,35120.0,78232,Bexar,119.28,233.72
+Trader Joe's Lynnwood (129),19715 Highway 99,Lynnwood,WA,98036,0.0852961390966064,36000.0,98036,Snohomish,113.57,284.04
+Trader Joe's Maple Grove (713),12105 Elm Creek Blvd N,Maple Grove,MN,55369,0.0911298482832963,32524.0,55369,Hennepin,152.29,425.78
+Trader Joe's Winston Salem (749),252 South Stratford Road,Winston Salem,NC,27103,0.2121306160868265,33208.0,27103,Forsyth,99.12,195.43
+Trader Joe's Fairfield (101),1350 Gateway Blvd,Fairfield,CA,94533,0.1559130858388324,69277.0,94533,Solano,123.29,320.28
+Trader Joe's Peabody (516),300 Andover St,Peabody,MA,01960,0.140138465555948,50944.0,01960,Essex,82.15,239.51
+Trader Joe's Bellevue (131),15563 NE 24th St,Bellevue,WA,98007,0.112199130660068,24889.0,98007,King,107.08,281.18
+Trader Joe's Sherman Oaks (49),14119 Riverside Dr,Sherman Oaks,CA,91423,0.0452058178345774,30991.0,91423,Los Angeles,113.02,291.73
+Trader Joe's Prescott (283),252 N Lee Blvd,Prescott,AZ,86303,0.1533653796434226,17082.0,86303,Yavapai,67.84,185.34
+Trader Joe's Acton (511),145 Great Rd,Acton,MA,01720,0.0261763539583068,21361.0,01720,Middlesex,131.2,348.2
+Trader Joe's Bloomfield Hills (675),6536 Telegraph Rd,Bloomfield Hills,MI,48301,0.0963066009705865,14127.0,48301,Oakland,139.56,427.24
+Trader Joe's San Luis Obispo (41),3977 Higuera Street,San Luis Obispo,CA,93401,0.1167842967010567,28033.0,93401,San Luis Obispo,73.65,152.65
+Trader Joe's Walnut Creek (123),1372 S California Blvd,Walnut Creek,CA,94596,0.0744952732190083,20037.0,94596,Contra Costa,115.49,312.56
+Trader Joe's Sacramento (70),2625 Marconi Ave,Sacramento,CA,95821,0.1507761284974348,33550.0,95821,Sacramento,53.96,132.85
+Trader Joe's Burbank (124),214 E Alameda Ave,Burbank,CA,91502,0.1155500625297666,11371.0,91502,Los Angeles,141.66,311.53
+Trader Joe's Templeton (211),1111 Rossi Road,Templeton,CA,93465,0.1863957274318705,9153.0,93465,San Luis Obispo,47.96,113.52
+Trader Joe's Kettering (673),328 East Stroop Rd,Kettering,OH,45429,0.1474196408006796,25885.0,45429,Montgomery,78.83,226.75
+Trader Joe's East Village (546),436 East 14th St,New York,NY,10009,0.069146499261352,61347.0,10009,New York,135.19,384.07
+Trader Joe's La Jolla (20),8657 Villa la Jolla Dr,La Jolla,CA,92037,0.0614529809253435,46781.0,92037,San Diego,125.37,257.52
+Trader Joe's Colorado Springs (305),5342 N Nevada Ave,Colorado Springs,CO,80918,0.1394731048787399,45467.0,80918,El Paso,101.66,272.25
+Trader Joe's Westfield (601),155 Elm St,Westfield,NJ,07090,0.0790447269966141,30338.0,07090,Union,118.27,330.52
+Trader Joe's Westlake (677),175 Market St,Westlake,OH,44145,0.0695085790346768,32729.0,44145,Cuyahoga,85.58,242.2
+Trader Joe's Baton Rouge (754),3535 Perkins Rd,Baton Rouge,LA,70808,0.098553270327269,32504.0,70808,East Baton Rouge,61.35,151.38
+Trader Joe's San Ramon (246),300 Market Place,San Ramon,CA,94583,0.1076341962447002,34859.0,94583,Contra Costa,125.05,366.19
+Trader Joe's Santa Rosa - Cleveland Ave (75),3225 Cleveland Ave,Santa Rosa,CA,95403,0.0759045716018068,45164.0,95403,Sonoma,70.2,205.94
+Trader Joe's Philadelphia - Center City (634),2121 Market St,Philadelphia,PA,19103,0.031820897831405,21908.0,19103,Philadelphia,53.24,181.85
+Trader Joe's San Diego - SDSU (224),5140 College Ave,San Diego,CA,92115,0.1290177587140944,58560.0,92115,San Diego,87.71,236.65
+Trader Joe's Brentwood (201),5451 Lone Tree Way,Brentwood,CA,94513,0.1252582031203975,54605.0,94513,Contra Costa,126.88,341.96
+Trader Joe's Palm Beach Gardens (772),2560 PGA Blvd,Palm Beach Gardens,FL,33410,0.1954421823168739,32570.0,33410,Palm Beach,130.33,269.58
+Trader Joe's Stockton (76),6535 Pacific Ave,Stockton,CA,95207,0.1684040828276911,47965.0,95207,San Joaquin,113.23,317.72
+Trader Joe's Houston - Alabama Theater (426),2922 S Shepherd Drive,Houston,TX,77098,0.07569093766587501,13076.0,77098,Harris,121.68,276.98
+Trader Joe's Little Rock (756),11500 Financial Centre Pky,Little Rock,AR,72211,0.1076592128815716,21288.0,72211,Pulaski,58.9,169.75
+Trader Joe's Alexandria (647),612 N Saint Asaph St,Alexandria,VA,22314,0.0360986020921621,29653.0,22314,Alexandria,129.62,339.96
+Trader Joe's Corvallis (154),1550 NW 9th St,Corvallis,OR,97330,0.0594193946876126,41472.0,97330,Benton,64.48,183.99
+Trader Joe's Sandy Springs (731),6277 Roswell Road NE,Sandy Springs,GA,30328,0.1030289675400293,30348.0,30328,Fulton,138.77,325.21
+Trader Joe's Folsom (172),850 East Bidwell,Folsom,CA,95630,0.1084773398175317,72180.0,95630,Sacramento,77.14,222.47
+Trader Joe's Glenview (681),1407 Waukegan Rd,Glenview,IL,60025,0.0698510638890036,39105.0,60025,Cook,158.71,302.24
+Trader Joe's Medford (155),55 Rossanley Dr,Medford,OR,97501,0.2975412652974923,42117.0,97501,Jackson,64.43,121.66
+Trader Joe's Redlands (99),552 Orange St,Redlands,CA,92374,0.1346286151561944,40267.0,92374,San Bernardino,90.83,203.34
+Trader Joe's Berkeley (186),1885 University Ave,Berkeley,CA,94703,0.0411907753643275,19846.0,94703,Alameda,97.73,308.2
+Trader Joe's West Seattle (157),4545 Fauntleroy Way SW,Seattle,WA,98116,0.0389383302324437,22241.0,98116,King,121.64,325.99
+Trader Joe's Paramus (605),404 Rt 17 N,Paramus,NJ,07652,0.0965397905289185,26342.0,07652,Bergen,109.73,227.11
+Trader Joe's Orange (524),560 Boston Post Rd,Orange,CT,06477,0.0629104980724039,13956.0,06477,New Haven,75.48,186.49
+Trader Joe's Bend (150),63455 N Hwy 97,Bend,OR,97701,0.1559707999603629,58993.0,97701,Deschutes,79.59,175.48
+Trader Joe's Saugus (506),358 Broadway,Saugus,MA,01906,0.1310024953679593,26660.0,01906,Essex,116.49,305.83
+Trader Joe's Tucson - Crossroads (88),4766 E Grant Rd,Tucson,AZ,85712,0.1906976965021622,32666.0,85712,Pima,79.61,264.52
+Trader Joe's Tucson (95),1101 N Wilmot Rd,Tucson,AZ,85712,0.1906976965021622,32666.0,85712,Pima,79.61,264.52
+Trader Joe's Arlington Heights (687),17 W Rand Rd,Arlington Heights,IL,60004,0.08399389663133601,50582.0,60004,Cook,102.58,283.95
+Trader Joe's Staten Island (559),2385 Richmond Ave,Staten Island,NY,10314,0.088910976399673,85510.0,10314,Richmond,112.51,301.45
+Trader Joe's USC Village (250),3131 S Hoover Street,Los Angeles,CA,90089,0.0109234599916267,3217.0,90089,Los Angeles,122.96,297.15
+Trader Joe's Albuquerque (167),2200 Uptown Loop NE,Albuquerque,NM,87110,0.0844349590451673,38587.0,87110,Bernalillo,28.47,73.07
+Trader Joe's Lake Zurich (684),735 W Route 22,Lake Zurich,IL,60047,0.0962521002112896,41669.0,60047,Lake,135.69,295.53
+Trader Joe's Larkspur (235),2052 Redwood Hwy,Greenbrae,CA,94904,0.0455939707353821,11995.0,94904,Marin,37.84,67.14
+Trader Joe's Syracuse (537),3422 Erie Blvd E,Syracuse,NY,13214,0.0610564458335306,8793.0,13214,Onondaga,81.67,232.74
+Trader Joe's Olympia (156),1530 Black Lake Blvd SW,Olympia,WA,98502,0.134433338589013,30491.0,98502,Thurston,102.97,298.11
+Trader Joe's Framingham (503),659 Worcester Rd,Framingham,MA,01701,0.0696005762818159,31217.0,01701,Middlesex,95.15,222.19
+Trader Joe's Laguna Niguel - Ocean Ranch (103),32351 Street of the Golden Lantern,Laguna Niguel,CA,92677,0.0929953657379739,63297.0,92677,Orange,130.51,277.23
+Trader Joe's Chapel Hill (745),1800 E Franklin St,Chapel Hill,NC,27514,0.0459248168077446,32110.0,27514,Orange,118.96,331.73
+Trader Joe's Kenwood (669),7788 Montgomery Rd,Cincinnati,OH,45236,0.1271658010129578,24552.0,45236,Hamilton,126.86,269.0
+Trader Joe's Chicago - South Loop (701),1147 S Wabash Ave,Chicago,IL,60605,0.0511196187494266,24668.0,60605,Cook,112.97,274.45
+Trader Joe's North Hollywood (252),6130 Laurel Canyon Bl,North Hollywood,CA,91606,0.0962402543959164,44958.0,91606,Los Angeles,104.72,243.94
+Trader Joe's Santa Barbara (59),222 North Milpas Street,Santa Barbara,CA,93103,0.0876575199258904,20249.0,93103,Santa Barbara,114.22,290.81
+Trader Joe's Schaumburg (705),1426 E Golf Rd,Schaumburg,IL,60173,0.1356976577991716,12217.0,60173,Cook,53.26,122.4
+Trader Joe's Torrance - Hawthorne Blvd (121),19720 Hawthorne Blvd,Torrance,CA,90503,0.0841149258495268,44383.0,90503,Los Angeles,103.68,232.02
+Trader Joe's Oak Park (697),483 N Harlem Ave,Oak Park,IL,60301,0.0524108823961415,2539.0,60301,Cook,14.13,28.33
+Trader Joe's Greensboro (750),3721 Battleground Ave.,Greensboro,NC,27410,0.0981023098779516,52388.0,27410,Guilford,90.2,246.14
+Trader Joe's Surprise (92),14095 W Grand Ave,Surprise,AZ,85374,0.2271592509572911,47146.0,85374,Maricopa,88.69,242.3
+Trader Joe's Santa Fe (165),530 W Cordova Rd,Santa Fe,NM,87505,0.0705520353987457,31013.0,87505,Santa Fe,52.83,174.27
+Trader Joe's Clovis (180),1077 N Willow Ave,Clovis,CA,93611,0.2048947876548127,45614.0,93611,Fresno,120.27,361.97
+Trader Joe's Batavia (689),1942 W Fabyan Pkwy,Batavia,IL,60510,0.0811191771258493,28897.0,60510,Kane,140.15,292.02
+Trader Joe's St. Paul (716),484 Lexington Pkwy S,St. Paul,MN,55105,0.0309923714431205,28455.0,55105,Ramsey,82.18,197.78
+Trader Joe's 72nd & Broadway (542),2073 Broadway,New York,NY,10023,0.0398676981584194,60998.0,10023,New York,162.84,334.11
+Trader Joe's N Scottsdale (87),7555 E Frank Lloyd Wright,Scottsdale,AZ,85260,0.1214610842619129,36056.0,85260,Maricopa,148.05,365.18
+Trader Joe's Grand Rapids - Kentwood (707),3684 28th St SE,Kentwood,MI,49512,0.1916824237075267,15448.0,49512,Kent,56.63,113.92
+Trader Joe's Columbia (658),6610 Marie Curie Dr,Elkridge,MD,21075,0.0772299226536048,26344.0,21075,Howard,142.22,469.46
+Trader Joe's Denville (617),3056 State Route 10 West,Denville,NJ,07834,0.0574208871045833,17722.0,07834,Morris,102.33,230.87
+Trader Joe's Huntington Beach (47),18681 Main St,Huntington Beach,CA,92648,0.08827408532929801,45317.0,92648,Orange,120.43,232.1
+Trader Joe's Marlton (631),300 P Route 73 S,Marlton,NJ,08053,0.0849056312793999,45538.0,08053,Burlington,126.58,353.23
+Trader Joe's Castro Valley (84),22224 Redwood Rd,Castro Valley,CA,94546,0.0530749434767958,42209.0,94546,Alameda,95.91,237.91
+Trader Joe's Manhattan Beach Blvd (34),1821 Manhattan Beach Blvd,Manhattan Beach,CA,90266,0.0555826409481905,35135.0,90266,Los Angeles,130.15,293.3
+Trader Joe's Manhattan Beach - Rosecrans Blvd (106),1800 Rosecrans Blvd,Manhattan Beach,CA,90266,0.0555826409481905,35135.0,90266,Los Angeles,130.15,293.3
+Trader Joe's Plano (402),2400 Preston Rd,Plano,TX,75093,0.1166508464331698,47187.0,75093,Collin,90.04,227.55
+Trader Joe's South Pasadena (18),613 Mission St,S. Pasadena,CA,91030,0.0427164261699207,25616.0,91030,Los Angeles,99.52,227.46
+Trader Joe's Los Angeles - 3rd & Fairfax (240),175 South Fairfax Ave,Los Angeles,CA,90036,0.0974129951546273,36865.0,90036,Los Angeles,135.31,324.0
+Trader Joe's Los Angeles (31),263 S La Brea Ave,Los Angeles,CA,90036,0.0974129951546273,36865.0,90036,Los Angeles,135.31,324.0
+Trader Joe's Oklahoma City - Nichols Hills (461),6409 Avondale Dr,Nichols Hills,OK,73116,0.1165779037377585,9241.0,73116,Oklahoma,154.67,343.27
+Trader Joe's Tallahassee (763),3425 Thomasville Rd,Tallahassee,FL,32309,0.1017210480270108,30159.0,32309,Leon,53.92,168.91
+Trader Joe's Burien (133),15868 1st Ave S,Burien,WA,98148,0.0814681073657347,10010.0,98148,King,37.4,80.35
+Trader Joe's South San Francisco (187),301 MC Lellan Dr,South San Francisco,CA,94080,0.0716962355675459,63975.0,94080,San Mateo,130.15,354.41
+Trader Joe's Laguna Hills (39),24231 Avenida De La Carlota,Laguna Hills,CA,92653,0.0984807998590468,29291.0,92653,Orange,141.22,309.14
+Trader Joe's Clifton (610),259 Allwood Road,Clifton,NJ,07012,0.0654771143170153,11703.0,07012,Passaic,70.0,157.94
+Trader Joe's Charlotte (744),1133 Metropolitan Ave,Charlotte,NC,28204,0.0552774034503298,4796.0,28204,Mecklenburg,91.55,241.06
+Trader Joe's South Burlington (527),200 Dorset St,South Burlington,VT,05403,0.0547001618171018,17593.0,05403,Chittenden,89.77,227.02
+Trader Joe's Calabasas (254),23741 Calabasas Rd.,Calabasas,CA,91302,0.072368955202488,25709.0,91302,Los Angeles,163.91,311.06
+Trader Joe's Culver City (36),9290 Culver Blvd,Culver City,CA,90232,0.0623559020068287,15149.0,90232,Los Angeles,104.15,248.89
+Trader Joe's Seattle - U District (137),4555 Roosevelt Way NE,Seattle,WA,98105,0.0503967123615522,43924.0,98105,King,94.21,247.12
+Trader Joe's Salt Lake City (350),634 East 400 South,Salt Lake City,UT,84102,0.0723548854899118,17421.0,84102,Salt Lake,53.22,167.73
+Trader Joe's Wichita (729),1800 N. Rock Road,Wichita,KS,67206,0.1564875511675927,15186.0,67206,Sedgwick,92.32,193.07
+Trader Joe's Oakland - Lakeshore (203),3250 Lakeshore Ave,Oakland,CA,94610,0.0408918855133482,29287.0,94610,Alameda,101.06,233.27
+Trader Joe's La Habra,"2101 W. Imperial Hwy, Suite A",La Habra,CA,90631,0.0999316749354209,67619.0,90631,Orange,97.47,224.91
+Trader Joe's Santa Barbara (183),3025 De La Vina St,Santa Barbara,CA,93105,0.0678988999571281,24815.0,93105,Santa Barbara,112.16,295.69
+Trader Joe's Rancho Cucamonga (217),6401 Haven Ave,Rancho Cucamonga,CA,91737,0.1483444155368899,24740.0,91737,San Bernardino,81.07,207.37
+Trader Joe's Katy (Cinco Ranch) (429),2717 Commercial Center Blvd,Katy,TX,77494,0.1283460209992051,61600.0,77494,Fort Bend,115.41,307.1
+Trader Joe's Knoxville (663),8001 Kingston Pike,Knoxville,TN,37919,0.1398458481868179,28194.0,37919,Knox,105.41,254.57
+Trader Joe's Goleta (110),5767 Calle Real,Goleta,CA,93117,0.0606401588903237,53217.0,93117,Santa Barbara,77.5,200.06
+Trader Joe's St. Petersburg (767),2742 4th St N,St. Petersburg,FL,33704,0.1474900544890652,16098.0,33704,Pinellas,107.9,205.0
+Trader Joe's State College (629),243 Patriot Lane,State College,PA,16803,0.0674767252026398,23685.0,16803,Centre,116.89,293.64
+Trader Joe's West Los Angeles (7),10850 National Blvd,Los Angeles,CA,90064,0.0457852955465851,25403.0,90064,Los Angeles,81.38,211.05
+Trader Joe's Olympic Blvd (215),11755 Olympic Blvd,Los Angeles,CA,90064,0.0457852955465851,25403.0,90064,Los Angeles,81.38,211.05
+Trader Joe's Dublin (672),6355 Sawmill Rd,Dublin,OH,43017,0.1051538852617362,37626.0,43017,Franklin,77.05,265.74
+Trader Joe's Manchester (563),1510 Pleasant Valley Road,Manchester,CT,06042,0.0753343250706684,22942.0,06042,Hartford,51.22,137.45
+Trader Joe's Raleigh (746),3000 Wake Forest Rd,Raleigh,NC,27609,0.078311879930441,32964.0,27609,Wake,92.8,271.88
+Trader Joe's ASU (91),940 E. University Drive,Tempe,AZ,85281,0.1667360914473123,57348.0,85281,Maricopa,73.44,166.62
+Trader Joe's Portland NW (146),2122 NW Glisan St,Portland,OR,97210,0.0683444291792802,10887.0,97210,Multnomah,120.43,321.61
+Trader Joe's Santa Maria (239),1303 S Bradley Rd,Santa Maria,CA,93454,0.1458900145958335,36448.0,93454,Santa Barbara,93.11,204.11
+Trader Joe's Carson City (281),3790 US Hwy 395 S,Carson City,NV,89705,0.2743096196327715,4969.0,89705,Douglas,134.82,310.34
+Trader Joe's Wilmington (636),5605 Concord Pike,Wilmington,DE,19803,0.15741446333638098,21364.0,19803,New Castle,197.51,514.97
+Trader Joe's Jacksonville (769),11112 San Jose Blvd,Jacksonville,FL,32223,0.1620594830043069,23980.0,32223,Duval,36.03,70.66
+Trader Joe's Union Square - Wine Store (541),138 E 14th St,New York,NY,10003,0.0694605529534036,56024.0,10003,New York,2289.33,6802.47
+Trader Joe's Union Square - Grocery Store (540),142 E 14th St,New York,NY,10003,0.0694605529534036,56024.0,10003,New York,2289.33,6802.47
+Trader Joe's Fort Point Seaport (566),44 Thomson Place,Boston,MA,02210,0.0636509078097214,2090.0,02210,Suffolk,93.98,258.77
+Trader Joe's Richmond (786),3000 Stony Point Rd,Richmond,VA,23235,0.0993147621043139,30165.0,23235,Chesterfield,100.7,255.7
+Trader Joe's Kent (163),12966 SE Kent-Kangley Rd,Kent,WA,98030,0.0917459417459524,33769.0,98030,King,109.93,323.83
+Trader Joe's Redding (219),845 Browning St,Redding,CA,96003,0.290237691514107,44461.0,96003,Shasta,49.88,111.41
+Trader Joe's Irvine -  Walnut Village Ctr (37),14443 Culver Dr,Irvine,CA,92604,0.0772495175174115,26853.0,92604,Orange,142.52,323.01
+Trader Joe's Santa Rosa Ave (178),2100 Santa Rosa Ave,Santa Rosa,CA,95407,0.1078285765214629,39352.0,95407,Sonoma,181.67,502.48
+Trader Joe's Lake Grove (556),2085 Smith Haven Plaza,Lake Grove,NY,11755,0.1393112850449098,12387.0,11755,Suffolk,94.07,224.6
+Trader Joe's Menlo Park (69),720 Menlo Ave,Menlo Park,CA,94025,0.03322341715896,40526.0,94025,San Mateo,42.95,107.25
+Trader Joe's Westlake Village (58),3835 E Thousand Oaks Blvd,Westlake Village,CA,91362,0.1098448628562276,36045.0,91362,Ventura,126.54,304.87
+Trader Joe's San Carlos (174),1482 El Camino Real,San Carlos,CA,94070,0.0366097490212092,29166.0,94070,San Mateo,135.98,381.62
+Trader Joe's Christiana (759),2500 Fashion Center Blvd.,Newark,DE,19702,0.0878344339296249,51899.0,19702,New Castle,108.22,319.1
+Trader Joe's El Cerrito (108),225 El Cerrito Plaza,El Cerrito,CA,94530,0.054206913115465986,23877.0,94530,Contra Costa,109.21,260.98
+Trader Joe's Wilshire (253),2300 Wilshire Blvd #101,Santa Monica,CA,90403,0.0606749907944998,24525.0,90403,Los Angeles,133.72,280.31
+Trader Joe's Mt. Pleasant (752),401 Johnnie Dodds Blvd,Mt. Pleasant,SC,29464,0.0909376499425853,43649.0,29464,Charleston,70.17,190.44
+Trader Joe's Nashville (664),3909 Hillsboro Pike,Nashville,TN,37215,0.049704354002296,21190.0,37215,Davidson,119.28,288.97
+Trader Joe's Las Vegas - Centennial Hills (98),5639 Centennial Ctr Blvd,Las Vegas,NV,89149,0.2264590676128189,31143.0,89149,Clark,180.08,517.55
+Trader Joe's Irvine - Woodbury Town Center (210),6222 Irvine Blvd,Irvine,CA,92620,0.0653685893649273,38486.0,92620,Orange,104.23,285.92
+Trader Joe's Milpitas (229),1306 Great Mall Pkwy,Milpitas,CA,95035,0.0911326897474617,66943.0,95035,Santa Clara,122.42,319.02
+Trader Joe's Washington - Capitol Hill (622),750 Pennsylvania Ave SE,Washington,DC,20003,0.0495631724815951,26454.0,20003,District of Columbia,118.38,282.38
+Trader Joe's University Place (148),3800 Bridgeport Way W,University Place,WA,98466,0.143260295327514,26944.0,98466,Pierce,95.23,281.02
+Trader Joe's Creve Coeur (694),11505 Olive Blvd,Creve Coeur,MO,63141,0.07119031190991901,20593.0,63141,St. Louis County,112.05,300.12
+Trader Joe's Davie (778),2296 S University Dr,Davie,FL,33324,0.1264939180023912,42847.0,33324,Broward,107.87,282.11
+Trader Joe's Tustin (197),1198 Irvine Blvd.,Tustin,CA,92780,0.1051156223996565,57741.0,92780,Orange,86.25,224.33
+Trader Joe's Omaha (719),10305 Pacific St,Omaha,NE,68114,0.0815076662825699,16928.0,68114,Douglas,67.99,162.02
+Trader Joe's North Brunswick (612),869 US-1,North Brunswick,NJ,08902,0.0638289325883154,41153.0,08902,Middlesex,85.56,211.74
+Trader Joe's Lincoln (722),3120 Pine Lake Rd,Lincoln,NE,68516,0.0585683770438578,38956.0,68516,Lancaster,58.69,182.85
+Trader Joe's Hillsboro (149),2285 NW 185th Ave,Hillsboro,OR,97124,0.0992554921217706,48349.0,97124,Washington,82.05,232.06
+Trader Joe's West Hills (50),6751 Fallbrook Ave,West Hills,CA,91307,0.0907739554317764,24474.0,91307,Los Angeles,127.96,295.5
+Trader Joe's Dallas West (405),5550 W Lovers Lane,Dallas,TX,75209,0.1078192093475649,13653.0,75209,Dallas,196.81,530.39
+Trader Joe's Sunset Blvd (192),8000 W Sunset Blvd,Los Angeles,CA,90046,0.0521154254075618,48581.0,90046,Los Angeles,120.27,291.56
+Trader Joe's West Hollywood (40),7310 Santa Monica Blvd,West Hollywood,CA,90046,0.0521154254075618,48581.0,90046,Los Angeles,120.27,291.56
+Trader Joe's Encino (56),17640 Burbank Blvd,Encino,CA,91316,0.065589560774,26898.0,91316,Los Angeles,118.69,266.3
+Trader Joe's Santa Ana (113),3329 S Bristol St,Santa Ana,CA,92704,0.0924970832181202,88123.0,92704,Orange,78.7,220.3
+Trader Joe's Fairfax (643),9464 Main St,Fairfax,VA,22031,0.0412082884215467,29795.0,22031,Fairfax County,123.61,393.95
+Trader Joe's Tucson - Campbell & Limberlost (191),4209 N Campbell Ave,Tucson,AZ,85719,0.1951630941378727,43989.0,85719,Pima,74.26,186.21
+Trader Joe's La Mesa (24),5495 Grossmont Center Dr,La Mesa,CA,91942,0.1178969160743389,38069.0,91942,San Diego,84.75,198.93
+Trader Joe's Los Angeles - Burton Way (237),8500 Burton Way,Los Angeles,CA,90048,0.0324747831814633,21397.0,90048,Los Angeles,121.57,283.54
+Trader Joe's Valencia (13),26517 Bouquet Canyon Rd,Santa Clarita,CA,91350,0.12606108940611,33348.0,91350,Los Angeles,37.2,62.81
+Trader Joe's Arch St. (618),1324 Arch St.,Philadelphia,PA,19107,0.0541035499340204,14875.0,19107,Philadelphia,65.37,170.01
+Trader Joe's Federal Way (134),1758 S 320th St,Federal Way,WA,98003,0.1789177899759165,44151.0,98003,King,57.55,150.5
+Trader Joe's Reston (646),11958 Killingsworth Ave,Reston,VA,20194,0.0293860956654881,13165.0,20194,Fairfax County,183.38,529.35
+Trader Joe's Ahwatukee (177),4025 E Chandler Blvd,Phoenix,AZ,85048,0.1214415872250528,33449.0,85048,Maricopa,119.77,277.14
+Trader Joe's La Quinta (189),46400 Washington St,La Quinta,CA,92253,0.16151091377752802,37262.0,92253,Riverside,93.84,261.31
+Trader Joe's San Jose - Westgate West (62),5269 Prospect,San Jose,CA,95129,0.0402582544320073,38720.0,95129,Santa Clara,109.65,381.45
+Trader Joe's San Jose - Bollinger (232),7250 Bollinger Rd,San Jose,CA,95129,0.0402582544320073,38720.0,95129,Santa Clara,109.65,381.45
+Trader Joe's Elk Grove (190),9670 Bruceville Road,Elk Grove,CA,95757,0.0846535044923968,40222.0,95757,Sacramento,103.87,263.4
+Trader Joe's Commack (551),5900 Jericho Turnpike,Commack,NY,11725,0.1326478041456055,29150.0,11725,Suffolk,135.18,350.73
+Trader Joe's Centreville (654),14100 Lee Hwy,Centreville,VA,20120,0.0456796686665505,40695.0,20120,Fairfax County,143.55,419.05
+Trader Joe's Denver (302),661 Logan Street,Denver,CO,80203,0.0530094300775027,18839.0,80203,Denver,79.26,209.29
+Trader Joe's St. Louis Park (710),4500 Excelsior Blvd,St. Louis Park,MN,55416,0.0613672901946428,29027.0,55416,Hennepin,53.5,194.11
+Trader Joe's Eugene (145),85 Oakway Center,Eugene,OR,97401,0.0699536901507633,40521.0,97401,Lane,86.86,245.21
+Trader Joe's Mountain View (81),590 Showers Dr,Mountain View,CA,94040,0.0498601004997324,32996.0,94040,Santa Clara,101.48,260.27
+Trader Joe's Naples (762),10600 Tamiami Trail N,Naples,FL,34108,0.1981264074863024,16874.0,34108,Collier,132.06,317.06
+Trader Joe's Wellington (774),2877 South State Rd 7,Wellington,FL,33414,0.1658699205714188,53718.0,33414,Palm Beach,102.36,235.4
+Trader Joe's Chicago - River North (696),44 E Ontario St,Chicago,IL,60611,0.116884064742815,28718.0,60611,Cook,169.24,301.16
+Trader Joe's Long Beach - PCH (43),6451 E Pacific Coast  Hwy,Long Beach,CA,90803,0.0541163709718225,32031.0,90803,Los Angeles,88.18,247.41
+Trader Joe's Silver Spring (652),10741 Columbia Pike,Silver Spring,MD,20901,0.0351271993144857,34832.0,20901,Montgomery,125.55,420.08
+Trader Joe's Orem (352),440 East Park Avenue,Orem,UT,84097,0.1751740785490862,21322.0,84097,Utah,64.36,146.98
+Trader Joe's Whittier (48),15025 E Whittier Blvd,Whittier,CA,90603,0.0895059855191618,20063.0,90603,Los Angeles,86.14,218.55
+Trader Joe's Portland - Hollywood (144),4121 NE Halsey St,Portland,OR,97232,0.0517364834365314,11472.0,97232,Multnomah,63.54,147.16
+Trader Joe's Chesterfield (693),1679 Clarkson Rd,Chesterfield,MO,63017,0.0744299473990907,41470.0,63017,St. Louis County,63.04,146.18
+Trader Joe's Houston - S Voss Rd (427),1440 South Voss Road,Houston,TX,77057,0.138220285693283,39208.0,77057,Harris,117.8,291.98
+Trader Joe's Anthem (280),10345 S Eastern Ave,Henderson,NV,89052,0.113775265734646,47214.0,89052,Clark,144.78,451.21
+Trader Joe's Birmingham (737),"205 Summit Blvd, Suite 100",Birmingham,AL,35243,0.0976836242944477,17328.0,35243,Jefferson,71.46,228.99
+Trader Joe's Queens (557),9030 Metropolitan Ave,Rego Park,NY,11374,0.0699919800797019,43600.0,11374,Queens,106.81,233.74
+Trader Joe's San Diego - Point Loma (188),2401 Truxtun Rd,San Diego,CA,92106,0.1138614372880019,19330.0,92106,San Diego,80.87,211.75
+Trader Joe's Naperville (690),44 W Gartner Rd,Naperville,IL,60540,0.0809385287872596,42910.0,60540,DuPage,90.51,228.94
+Trader Joe's Thousand Oaks (196),451 Avenida De Los Arboles,Thousand Oaks,CA,91360,0.1199321912862217,42402.0,91360,Ventura,117.24,229.29
+Trader Joe's Hyde Park (706),1528 E 55th Street,Chicago,IL,60615,0.0880191338350783,40603.0,60615,Cook,157.36,450.97
+Trader Joe's Gainesville (764),3724 SW Archer Rd,Gainesville,FL,32608,0.0983658562460678,45842.0,32608,Alachua,77.29,192.52
+Trader Joe's Concord (60),1150 Concord Ave,Concord,CA,94520,0.1217262613999713,37208.0,94520,Contra Costa,105.89,254.01
+Trader Joe's Libertyville (704),1600 S Milwaukee Ave,Libertyville,IL,60048,0.0533104892615003,29095.0,60048,Lake,180.83,610.97
+Trader Joe's Brick (615),110 Brick Plaza,Brick,NJ,08723,0.1389890788044679,31641.0,08723,Ocean,105.04,259.51
+Trader Joe's Kirkland (132),12520 Totem Lake Blvd NE,Kirkland,WA,98034,0.0571304611993934,40407.0,98034,King,134.96,338.57
+Trader Joe's Virginia Beach (660),503 Hilltop Plaza,Virginia Beach,VA,23454,0.1571794752526823,60283.0,23454,Virginia Beach,91.63,257.1
+Trader Joe's Falls Church - Tyson's Station (641),7514 Leesburg Turnpike,Falls Church,VA,22043,0.0363196435688197,24302.0,22043,Fairfax County,115.15,313.73
+Trader Joe's Cerritos (104),12861 Towne Center Dr,Cerritos,CA,90703,0.0538772422000744,49399.0,90703,Los Angeles,94.32,220.83
+Trader Joe's Des Peres (695),13343 Manchester Rd,Des Peres,MO,63131,0.0827966538013785,16769.0,63131,St. Louis County,107.45,263.91
+Trader Joe's Escondido (105),1885 S Centre City Pkwy,Escondido,CA,92025,0.2286948339106064,49978.0,92025,San Diego,102.75,268.07
+Trader Joe's Austin - Seaholm (452),"211 Walter Seaholm Dr, Ste 100",Austin,TX,78701,0.0923196091537906,6841.0,78701,Travis,116.05,308.63
+Trader Joe's West Los Angeles - Sepulveda (119),3456 S Sepulveda Blvd,Los Angeles,CA,90034,0.0583571154069499,57964.0,90034,Los Angeles,88.29,225.25
+Trader Joe's Cottonwood Heights (351),6989 S 1300 E,Cottonwood Heights,UT,84047,0.2489374489665279,28936.0,84047,Salt Lake,63.99,166.68
+Trader Joe's New York - Murray Hill (544),200 E 32nd St,New York,NY,10016,0.0575592019568959,54183.0,10016,New York,119.05,295.34
+Trader Joe's Pasadena - S Lake Ave (179),345 S Lake Ave,Pasadena,CA,91101,0.0746013654226737,20460.0,91101,Los Angeles,73.63,199.69
+Trader Joe's Millburn (609),187 Millburn Ave,Millburn,NJ,07041,0.0252048860890221,6868.0,07041,Essex,100.32,435.27
+Trader Joe's Spokane (159),2975 East 29th Ave,Spokane,WA,99223,0.1282626671110003,29273.0,99223,Spokane,83.36,271.06
+Trader Joe's Reno (82),5035 S McCarran Blvd,Reno,NV,89502,0.24916531669054395,43566.0,89502,Washoe,55.35,111.49
+Trader Joe's Plainview (555),425 S Oyster Bay Rd,Plainview,NY,11803,0.054297474091586,28127.0,11803,Nassau,108.01,231.06
+Trader Joe's San Jose - Old Almaden (63),5353 Almaden Expressway #J-38,San Jose,CA,95118,0.0848303647044005,31932.0,95118,Santa Clara,84.39,208.75
+Trader Joe's Huntington Beach - Brookhurst (241),21431 Brookhurst St,Huntington Beach,CA,92646,0.1188384469505754,55224.0,92646,Orange,139.93,328.69
+Trader Joe's Dallas Far North (407),14856 Preston Rd,Dallas,TX,75254,0.1983314157236601,23253.0,75254,Dallas,120.39,234.86
+Trader Joe's Hoboken (611),1350 Willow Ave.,Hoboken,NJ,07030,0.0500209751553568,50005.0,07030,Hudson,113.79,293.44
+Trader Joe's Minneapolis (725),721 Washington Ave S,Minneapolis,MN,55415,0.0579614053280114,2604.0,55415,Hennepin,38.2,98.27
+Trader Joe's Pembroke Pines (775),11960 Pines Blvd,Pembroke Pines,FL,33026,0.102617806067617,28498.0,33026,Broward,89.27,178.82
+Trader Joe's Carlsbad (220),2629 Gateway Rd,Carlsbad,CA,92009,0.1206175652374929,40747.0,92009,San Diego,108.27,229.48
+Trader Joe's Stamford (529),1041 High Ridge Rd,Stamford,CT,06905,0.0779017175497295,19649.0,06905,Fairfield,129.78,264.22
+Trader Joe's Richmond/Short Pump (659),11331 W Broad St,Glen Allen,VA,23060,0.0837026640024757,33417.0,23060,Henrico,136.97,371.77
+Trader Joe's Santa Monica (6),3212 Pico Blvd,Santa Monica,CA,90405,0.0377374823427362,27186.0,90405,Los Angeles,144.63,294.96
+Trader Joe's Westport (521),400 Post Road E,Westport,CT,06880,0.0319687143072522,26647.0,06880,Fairfield,121.64,248.41
+Trader Joe's Greenville (751),59 Woodruff Industrial Ln,Greenville,SC,29607,0.2082565552251413,34487.0,29607,Greenville,107.09,226.91
+Trader Joe's Cherry Hill (613),775 Haddonfield Rd,Cherry Hill,NJ,08002,0.0684571717308794,22274.0,08002,Camden,96.89,233.83
+Trader Joe's Paradise Valley (282),4726 East Shea Blvd,Phoenix,AZ,85028,0.1518044015241718,19157.0,85028,Maricopa,95.29,206.81
+Trader Joe's Washington - 14th St (662),1914 14th St NW,Washington,DC,20009,0.0440317026759732,47992.0,20009,District of Columbia,105.6,302.64
+Trader Joe's Rochester (534),3349 Monroe Ave,Rochester,NY,14618,0.0462009239321456,22920.0,14618,Monroe,52.96,114.31
+Trader Joe's Oro Valley (96),7912 N Oracle,Oro Valley,AZ,85704,0.2065336931760926,30929.0,85704,Pima,72.25,206.25
+Trader Joe's Pikesville (655),1809 Reisterstown Rd,Pikesville,MD,21208,0.0793673339079278,33917.0,21208,Baltimore County,208.41,525.76
+Trader Joe's San Mateo - Hillsdale (245),45 W Hillsdale Blvd,San Mateo,CA,94403,0.0512328806067669,39642.0,94403,San Mateo,112.66,270.57
+Trader Joe's Sammamish (160),490 228th Ave NE,Sammamish,WA,98074,0.0422042379038669,25748.0,98074,King,104.09,284.0
+Trader Joe's Daly City (74),417 Westlake Center,Daly City,CA,94015,0.0610042074469254,60927.0,94015,San Mateo,110.14,271.39
+Trader Joe's Rochester (718),1200 16th St SW,Rochester,MN,55902,0.0716843557579982,21968.0,55902,Olmsted,50.7,110.16
+Trader Joe's Los Altos (127),2310 Homestead Rd,Los Altos,CA,94024,0.0302906722956381,22385.0,94024,Santa Clara,93.4,270.47
+Trader Joe's Redmond (140),15932 Redmond Way,Redmond,WA,98052,0.0554876369668038,58442.0,98052,King,106.72,279.52
+Trader Joe's Granada Hills (44),11114 Balboa Blvd,Granada Hills,CA,91344,0.0929390458060399,51747.0,91344,Los Angeles,92.5,224.92
+Trader Joe's North Wales (639),1460 Bethlehem Pike,North Wales,PA,19454,0.0659505518326229,27870.0,19454,Montgomery,136.35,327.31
+Trader Joe's Ithaca (568),744 S Meadow Street,Ithaca,NY,14850,0.0882211265679073,63886.0,14850,Tompkins,61.05,146.39
+Trader Joe's San Diego - Carmel Mtn Ranch (23),11955 Carmel Mountain Rd,San Diego,CA,92128,0.0784630236980519,47490.0,92128,San Diego,91.89,225.47
+Trader Joe's Bakersfield (14),8200 Stockdale Hwy,Bakersfield,CA,93311,0.150066189339756,40829.0,93311,Kern,56.24,166.86
+Trader Joe's Coralville (728),920 Ponseti Way,Coralville,IA,52241,0.0995481808828124,18911.0,52241,Johnson,100.25,364.43
+Trader Joe's Los Gatos (181),15466 Los Gatos Blvd,Los Gatos,CA,95032,0.0383105216503295,25089.0,95032,Santa Clara,111.04,295.43
+Trader Joe's McKinney (408),2851 Craig Dr Ste 100,McKinney,TX,75070,0.17151872113768898,74734.0,75070,Collin,125.95,313.22
+Trader Joe's San Dimas (28),856 W Arrow Hwy,San Dimas,CA,91773,0.1145713983259316,33119.0,91773,Los Angeles,119.77,297.61
+Trader Joe's Glover Park (620),2101 Wisconsin Ave NW Suite A,Washington,DC,20007,0.0329496764708798,26866.0,20007,District of Columbia,167.83,347.85
+Trader Joe's Albuquerque (166),8928 Holly Ave NE,Albuquerque,NM,87122,0.0613190668309996,17977.0,87122,Bernalillo,83.47,272.76
+Trader Joe's Phoenix - Town & Country (90),4821 N 20th St,Phoenix,AZ,85016,0.1630176005444353,33896.0,85016,Maricopa,91.52,251.08
+Trader Joe's South Bend (600),1140 East Howard,South Bend,IN,46617,0.0988876919155025,9601.0,46617,St. Joseph,112.45,233.53
+Trader Joe's Bellevue (162),416 116th Ave NE,Bellevue,WA,98004,0.0555958139452316,27946.0,98004,King,109.04,299.65
+Trader Joe's Springfield (651),6394 Springfield Plaza,Springfield,VA,22150,0.0502646224259826,27105.0,22150,Fairfax County,64.32,144.88
+Trader Joe's OrlandoDr. Phillips (768),8323 Sand Lake Rd,Orlando,FL,32819,0.1221434998833608,24976.0,32819,Orange,66.69,181.62
+Trader Joe's San Diego - Pacific Beach (21),1640 Garnet Ave,San Diego,CA,92109,0.0812783405023342,45787.0,92109,San Diego,118.15,272.15
+Trader Joe's San Francisco - Nob Hill (200),1095 Hyde St,San Francisco,CA,94109,0.0543531533511162,55984.0,94109,San Francisco,130.41,317.06
+Trader Joe's Boston - Back Bay (510),899 Boylston St,Boston,MA,02115,0.0311678320430928,28441.0,02115,Suffolk,74.22,220.32
+Trader Joe's Hollywood (206),1600 N Vine St,Los Angeles,CA,90028,0.0721715254314659,28714.0,90028,Los Angeles,117.61,328.98
+Trader Joe's Columbia (753),4516 Forest Drive,Columbia,SC,29206,0.1115181122299397,17788.0,29206,Richland,80.54,178.77
+Trader Joe's Brookfield (726),12665 W. Bluemound Rd,Brookfield,WI,53005,0.1721045039096931,19425.0,53005,Waukesha,84.58,227.12
+Trader Joe's Scarsdale (531),727 White Plains Rd,Scarsdale,NY,10583,0.0276365774938602,38982.0,10583,Westchester,147.61,392.27
+Trader Joe's Ballard (147),4609 14th Ave NW,Seattle,WA,98107,0.0314693352427844,21147.0,98107,King,117.88,333.94
+Trader Joe's Amherst (536),1565 Niagara Falls Blvd,Buffalo,NY,14228,0.1019003755387465,20857.0,14228,Erie,57.62,146.55
+Trader Joe's Austin - Northwest (454),9722 Great Hills Trail,Austin,TX,78759,0.0989905442993333,38891.0,78759,Travis,94.78,266.11
+Trader Joe's Las Vegas - Downtown Summerlin (284),2315 Summa Dr Ste 100,Las Vegas,NV,89135,0.093685869077473,24144.0,89135,Clark,127.87,342.43
+Trader Joe's Marietta (732),4250 Roswell Road,Marietta,GA,30062,0.141406054759016,62136.0,30062,Cobb,95.68,229.65
+Trader Joe's Burlington (515),51 Middlesex Turnpike,Burlington,MA,01803,0.054728652945126,24487.0,01803,Middlesex,158.9,474.29
+Trader Joe's Davis (182),885 Russell Blvd,Davis,CA,95616,0.0841026377450183,47032.0,95616,Yolo,68.45,190.76
+Trader Joe's Cambridge Fresh Pond (517),211 Alewife Brook Pkwy,Cambridge,MA,02138,0.0292370969876684,36314.0,02138,Middlesex,121.55,279.25
+Trader Joe's Simi Valley (30),2975-A Cochran St,Simi Valley,CA,93065,0.1211614955361781,72508.0,93065,Ventura,116.97,289.99
+Trader Joe's Chelsea (543),675 6th Ave,New York,NY,10010,0.0494577453868571,31834.0,10010,New York,127.51,283.61
+Trader Joe's Charlottesville (661),2025 Bond St.,Charlottesville,VA,22901,0.0571434884766089,32532.0,22901,Albemarle,75.16,223.38
+Trader Joe's Westchester (33),8645 S Sepulveda,Westchester,CA,90045,0.0556470566427826,39480.0,90045,Los Angeles,100.08,231.62
+Trader Joe's Shoreview (727),1041 Red Fox Rd,Shoreview,MN,55126,0.0545892570757483,25140.0,55126,Ramsey,116.45,251.31
+Trader Joe's Boca Raton (773),855 S Federal Hwy,Boca Raton,FL,33432,0.1651330073495251,18715.0,33432,Palm Beach,137.02,347.89
+Trader Joe's Mesa (89),2050 E Baseline Rd,Mesa,AZ,85204,0.2886249966054793,60885.0,85204,Maricopa,107.11,308.39
+Trader Joe's Hadley (512),375 Russell St,Hadley,MA,01035,0.0565072822066801,5250.0,01035,Hampshire,55.31,109.7
+Trader Joe's La Canada (42),475 Foothill Blvd,La Canada,CA,91011,0.0502709250321309,20280.0,91011,Los Angeles,95.46,208.21
+Trader Joe's Coral Springs (782),2796 N. University Drive,Coral Springs,FL,33065,0.2119192991058325,51921.0,33065,Broward,90.86,241.87
+Trader Joe's Rancho Palos Verdes - S. Western Ave. (57),28901 S Western Ave,Rancho Palos Verdes,CA,90275,0.0806506300221986,41804.0,90275,Los Angeles,128.07,304.2
+Trader Joe's Rancho Palos Verdes (233),31176 Hawthorne Blvd,Rancho Palos Verdes,CA,90275,0.0806506300221986,41804.0,90275,Los Angeles,128.07,304.2
+Trader Joe's Colonie/Albany (535),79 Wolf Rd,Colonie,NY,12205,0.1192011471909766,26977.0,12205,Albany,91.2,150.95
+Trader Joe's Bedford (562),2 Market Street,Bedford,NH,03110,0.0883916709673569,21203.0,03110,Hillsborough,136.4,306.62
+Trader Joe's Pinecrest (770),9205 S Dixie Hwy,Miami,FL,33156,0.1065903184403165,31315.0,33156,Miami-Dade,139.27,257.13
+Trader Joe's Chatsworth (184),10330 Mason Ave,Chatsworth,CA,91311,0.1153125930567311,36557.0,91311,Los Angeles,92.87,227.72
+Trader Joe's Newport News (656),12551 Jefferson Ave,Newport News,VA,23602,0.1958352029850146,39676.0,23602,Newport News,73.17,188.3
+Trader Joe's Boise (360),300 S Capitol Blvd,Boise,ID,83702,0.0731530878009641,22293.0,83702,Ada,35.74,109.38
+Trader Joe's Rancho Santa Margarita (27),30652 Santa Margarita Pkwy,Rancho Santa Margarita,CA,92688,0.1031631940421266,43792.0,92688,Orange,100.44,224.62
+Trader Joe's Shrewsbury (608),1031 Broad St,Shrewsbury,NJ,07702,0.1221055310528073,3809.0,07702,Monmouth,125.51,349.17
+Trader Joe's Napa (128),3654 Bel Aire Plaza,Napa,CA,94558,0.0692981265334904,66830.0,94558,Napa,91.08,250.3
+Trader Joe's Tulsa (460),3702 S Peoria Ave,Tulsa,OK,74105,0.12614562224559,26547.0,74105,Tulsa,148.67,303.14
+Trader Joe's Foxborough - Patriot Place (528),350 Patriot Place,Foxborough,MA,02035,0.0735930566053147,16865.0,02035,Norfolk,81.18,223.63
+Trader Joe's Salem (153),4450 Commercial St SE,Salem,OR,97302,0.1170083549822872,37131.0,97302,Marion,112.84,317.97
+Trader Joe's Northbrook (682),127 Skokie Blvd,Northbrook,IL,60062,0.0494028185059118,39936.0,60062,Cook,138.74,291.57
+Trader Joe's San Clemente (16),638 Camino de Los Mares,San Clemente,CA,92673,0.0909798124385801,29309.0,92673,Orange,146.22,298.98
+Trader Joe's Woodland Hills (209),21055 Ventura Blvd,Woodland Hills,CA,91364,0.097582993434588,25851.0,91364,Los Angeles,123.2,250.58
+Trader Joe's Everett (139),811 SE Everett Mall Way,Everett,WA,98208,0.09425751774323,51802.0,98208,Snohomish,44.01,143.14
+Trader Joe's Warwick (518),1000 Bald Hill Rd,Warwick,RI,02886,0.2960588582566779,29269.0,02886,Kent,80.26,120.83
+Trader Joe's Winter Park (765),131 Orlando Ave.,Winter Park,FL,32789,0.128351769427508,24557.0,32789,Orange,98.53,203.51
+Trader Joe's Portland SE (143),4715 SE Cesar Chavez Blvd,Portland,OR,97202,0.0608485876143857,38762.0,97202,Multnomah,59.44,169.22
+Trader Joe's Pacific Grove (79),1170 Forest Ave,Pacific Grove,CA,93950,0.0746358742636695,15046.0,93950,Monterey,128.79,292.6
+Trader Joe's Crestview Hills Grocery (788),2780 Dixie Highway,Crestview Hills,KY,41017,0.1579728597212448,38940.0,41017,Kenton,132.89,360.57
+Trader Joe's Crestview Hills Wine (789),2785 Dixie Highway,Crestview Hills,KY,41017,0.1579728597212448,38940.0,41017,Kenton,132.89,360.57
+Trader Joe's Westwood (602),20 Irvington St,Westwood,NJ,07675,0.0535925012169131,26339.0,07675,Bergen,133.39,380.03
+Trader Joe's San Francisco (100),3 Masonic Ave,San Francisco,CA,94118,0.0307399061143398,38319.0,94118,San Francisco,116.34,312.25
+Trader Joe's Hewlett (554),1280 West Broadway,Hewlett,NY,11557,0.0842875651258058,7823.0,11557,Nassau,93.53,224.37
+Trader Joe's Athens (736),1850 Epps Bridge Pkwy,Athens,GA,30606,0.1281663406692871,40225.0,30606,Clarke,75.07,217.92
+Trader Joe's Greenwood Village (303),"5910 S University Blvd, Suite E1",Greenwood Village,CO,80121,0.1053020813462962,17853.0,80121,Arapahoe,118.2,279.66
+Trader Joe's Minnetonka (714),11220 Wayzata Blvd,Minnetonka,MN,55305,0.0582995592493969,19368.0,55305,Hennepin,143.96,297.96
+Trader Joe's Oceanside (22),2570 Vista Way,Oceanside,CA,92054,0.1956607903655378,40375.0,92054,San Diego,80.43,210.19
+Trader Joe's Long Beach - Bixby Knolls (116),4210 Long Beach Blvd,Long Beach,CA,90807,0.0592029990435885,31481.0,90807,Los Angeles,109.33,278.96
+Trader Joe's Edgewater (606),715 River Rd,Edgewater,NJ,07020,0.0646391221335529,11513.0,07020,Bergen,177.4,527.34
+Trader Joe's West Hollywood (173),8611 Santa Monica Blvd,West Hollywood,CA,90069,0.0401591032444884,20483.0,90069,Los Angeles,109.26,281.41
+Trader Joe's Oakland - Rockridge (231),5727 College Ave,Oakland,CA,94618,0.0186515251534592,16046.0,94618,Alameda,89.04,213.03
+Trader Joe's Arroyo Grande (117),955 Rancho Pkwy,Arroyo Grande,CA,93420,0.1568831271322314,28413.0,93420,San Luis Obispo,68.63,112.85
+Trader Joe's Fort Wayne (757),4110 W. Jefferson Blvd.,Fort Wayne,IN,46804,0.1861215339002622,27245.0,46804,Allen,53.68,144.57
+Trader Joe's Spokane N (164),5520 N Division St,Spokane,WA,99208,0.2436867845483275,49193.0,99208,Spokane,93.17,282.31
+Trader Joe's Chino Hills (216),13911 Peyton Drive,Chino Hills,CA,91709,0.1309974144713074,74796.0,91709,San Bernardino,77.04,216.97
+Trader Joe's Downers Grove (683),122 Ogden Ave,Downers Grove,IL,60515,0.0600102048020278,27503.0,60515,DuPage,97.3,322.67
+Trader Joe's Southlake (406),1492 E Southlake Blvd,Southlake,TX,76092,0.1066498499280787,26669.0,76092,Tarrant,149.26,420.13
+Trader Joe's San Jose - Coleman Ave (212),635 Coleman Ave,San Jose,CA,95110,0.0643765220784573,18730.0,95110,Santa Clara,126.89,321.56
+Trader Joe's Shrewsbury (508),77 Boston Turnpike,Shrewsbury,MA,01545,0.0646443769410285,35299.0,01545,Worcester,57.23,156.46
+Trader Joe's Tempe (93),6460 S McClintock Dr,Tempe,AZ,85283,0.1607017464225516,44813.0,85283,Maricopa,76.34,173.61
+Trader Joe's Fair Oaks (71),5309 Sunrise Blvd,Fair Oaks,CA,95628,0.1415075860340863,40196.0,95628,Sacramento,64.75,186.12
+Trader Joe's Charlotte - North (743),1820 E Arbors Dr,Charlotte,NC,28262,0.1481215525543877,37547.0,28262,Mecklenburg,101.68,228.5
+Trader Joe's Mission Valley (222),1072 Camino Del Rio North,San Diego,CA,92108,0.1416005460059718,18858.0,92108,San Diego,132.2,259.88
+Trader Joe's Newington/Portsmouth (520),45 Gosling Rd,Portsmouth,NH,03801,0.0934462453706538,21532.0,03801,Rockingham,155.49,300.95
+Trader Joe's Palmdale (185),39507 10th St W,Palmdale,CA,93551,0.1475398756451074,50798.0,93551,Los Angeles,109.99,242.78
+Trader Joe's Houston - West (431),11683 Westheimer Rd,Houston,TX,77077,0.1219792843299743,52151.0,77077,Harris,87.53,233.02
+Trader Joe's Eagle Rock (55),1566 Colorado Blvd,Eagle Rock,CA,90041,0.0664969018866097,27425.0,90041,Los Angeles,79.45,221.87
+Trader Joe's Boulder (301),1906 28th St,Boulder,CO,80301,0.0617663709242795,22555.0,80301,Boulder,131.71,269.12
+Trader Joe's Oceanside (552),3418 Long Beach Rd,Oceanside,NY,11572,0.088732029877675,30574.0,11572,Nassau,102.33,254.79
+Trader Joe's Pittsburgh - South Hills (630),1630 Washington Rd,Pittsburgh,PA,15241,0.0947742894137525,20395.0,15241,Allegheny,95.34,236.98
+Trader Joe's Algonquin (699),1800 S Randall Rd,Algonquin,IL,60102,0.1216170562246312,32193.0,60102,McHenry,132.16,270.17
+Trader Joe's Charlotte - Piper Glen (742),6418 Rea Rd,Charlotte,NC,28277,0.0759628789206571,59664.0,28277,Mecklenburg,134.2,335.02
+Trader Joe's Woodbury (715),8960 Hudson Rd. Ste. 801,Woodbury,MN,55125,0.0872397667341321,43281.0,55125,Washington,153.86,324.7
+Trader Joe's Evanston (702),1211 Chicago Avenue,Evanston,IL,60202,0.0427193890649034,31361.0,60202,Cook,113.53,251.66
+Trader Joe's Hermosa Beach (248),1100 Pacific Coast Hwy,Hermosa Beach,CA,90254,0.0545184065163697,19506.0,90254,Los Angeles,149.27,380.76
+Trader Joe's Lexington Wine (626),2320 Nicholasville Road,Lexington,KY,40503,0.0894157297383561,28003.0,40503,Fayette,53.74,113.33
+Trader Joe's Lexington Grocery (627),2326 Nicholasville Rd,Lexington,KY,40503,0.0894157297383561,28003.0,40503,Fayette,53.74,113.33
+Trader Joe's Bailey's Crossroads (644),5847 Leesburg Pike,Bailey's Crossroads,VA,22041,0.0732437478096557,27989.0,22041,Fairfax County,94.16,238.92
+Trader Joe's Indianapolis - Castleton (671),5473 E 82nd St,Indianapolis,IN,46250,0.167721093084977,18546.0,46250,Marion,52.26,184.71
+Trader Joe's Encinitas (25),115 N El Camino Real,Encinitas,CA,92024,0.0970000950462371,49121.0,92024,San Diego,102.35,243.59
+Trader Joe's Bridgewater (614),315 Promenade Blvd,Bridgewater,NJ,08807,0.0784115092134237,37972.0,08807,Somerset,127.39,335.17
+Trader Joe's Marina Del Rey (205),4675 Admiralty Way,Marina Del Rey,CA,90292,0.0632988832418559,21576.0,90292,Los Angeles,127.04,275.03
+Trader Joe's Roseville (80),1117 Roseville Square,Roseville,CA,95678,0.2077307453805962,41192.0,95678,Placer,54.89,107.92
+Trader Joe's Seattle - Capitol Hill (130),1700 Madison St,Seattle,WA,98122,0.0393188727802568,31454.0,98122,King,84.76,233.52
+Trader Joe's Grosse Pointe (665),17028 Kercheval Ave,Grosse Pointe,MI,48230,0.0503891925268337,16976.0,48230,Wayne,81.84,223.4
+Trader Joe's SoHo (539),233 Spring Street,New York,NY,10013,0.0692731331410204,27700.0,10013,New York,72.32,263.15
+Trader Joe's Alameda (109),2217 South Shore Center,Alameda,CA,94501,0.0493022835248319,60212.0,94501,Alameda,102.28,272.71
+Trader Joe's Tampa (766),3808 W Swann Ave,Tampa,FL,33609,0.1837658842830186,15999.0,33609,Hillsborough,90.65,201.96
+Trader Joe's Capitola (64),3555 Clares St #D,Capitola,CA,95010,0.0590227916032567,9137.0,95010,Santa Cruz,132.58,379.75
+Trader Joe's Temecula (102),40665 Winchester Rd,Temecula,CA,92591,0.1845183175359163,38272.0,92591,Riverside,97.48,228.96
+Trader Joe's Norcross - Peachtree Corners (734),5185 Peachtree Pkwy,Norcross,GA,30092,0.15094874791127802,31704.0,30092,Gwinnett,141.6,354.21
+Trader Joe's Las Vegas - Summerlin (86),7575 W Washington,Las Vegas,NV,89128,0.2808191813244896,35669.0,89128,Clark,113.78,311.67
+Trader Joe's Culver City (251),6150 Slauson Ave,Culver City,CA,90230,0.0557348481191291,31766.0,90230,Los Angeles,107.54,231.73
+Trader Joe's San Juan Capistrano (249),32151 Camino Capistrano,San Juan Capistrano,CA,92675,0.0876047649259087,34731.0,92675,Orange,103.88,224.1
+Trader Joe's Ann Arbor (678),2398 East Stadium Blvd,Ann Arbor,MI,48104,0.0290970187532714,38315.0,48104,Washtenaw,82.95,211.14
+Trader Joe's Glendale (85),7720 West Bell Rd,Glendale,AZ,85308,0.1557866677429525,63876.0,85308,Maricopa,76.15,164.5
+Trader Joe's Ardmore (635),112 Coulter Ave,Ardmore,PA,19003,0.0504773876087464,12519.0,19003,Montgomery,107.06,296.47
+Trader Joe's Northville (667),18771 Traditions Drive,Northville,MI,48167,0.1223862829015325,21534.0,48167,Washtenaw,73.26,196.94
+Trader Joe's Westbury (550),910 Old Country Rd,Garden City,NY,11530,0.048399630337597,27273.0,11530,Nassau,129.57,270.27
+Trader Joe's Fort Collins (304),"3500 S College Ave, Ste 110",Fort Collins,CO,80525,0.1262599114255334,48419.0,80525,Larimer,139.55,394.12
+Trader Joe's Glendale (53),103 E Glenoaks Blvd,Glendale,CA,91207,0.0401940098193796,10506.0,91207,Los Angeles,55.58,117.89
+Trader Joe's Danville (65),85 Railroad Ave,Danville,CA,94526,0.0333476438016143,31102.0,94526,Contra Costa,199.52,719.98
+Trader Joe's Rockville (642),12268-H Rockville Pike,Rockville,MD,20852,0.0299751329601219,40365.0,20852,Montgomery,124.82,355.58
+Trader Joe's Littleton (306),8055 West Bowles Ave,Littleton,CO,80123,0.1182223155769785,44795.0,80123,Jefferson,102.75,310.04
+Trader Joe's Long Beach - Bellflower Blvd (194),2222 North Bellflower Blvd,Long Beach,CA,90815,0.0523676652743356,39733.0,90815,Los Angeles,94.43,215.62
+Trader Joe's Jenkintown (633),933 Old York Rd,Jenkintown,PA,19046,0.0691030477802794,17809.0,19046,Montgomery,102.5,288.84
+Trader Joe's San Francisco - Stonestown (236),265 Winston Dr,San Francisco,CA,94132,0.0450144716727924,28129.0,94132,San Francisco,69.26,187.7
+Trader Joe's Fort Lauderdale (776),1560 N Federal Hwy,Fort Lauderdale,FL,33304,0.1210325640802347,17724.0,33304,Broward,156.82,285.92
+Trader Joe's San Rafael (61),337 3rd St,San Rafael,CA,94901,0.0672044215923284,41157.0,94901,Marin,121.19,312.01
+Trader Joe's Toluca Lake (54),10130 Riverside Dr,Toluca Lake,CA,91602,0.0619759914659913,17473.0,91602,Los Angeles,102.94,229.28
+Trader Joe's Washington - Union Market District (621),350 Florida Ave. NE,Washington,DC,20002,0.0678827686054279,52370.0,20002,District of Columbia,99.95,268.92
+Trader Joe's Hartsdale (533),215 N Central Ave,Hartsdale,NY,10530,0.0685195737073301,12604.0,10530,Westchester,65.1,167.6
+Trader Joe's North Potomac (648),10076 Darnestown Rd,Rockville,MD,20850,0.0310753912733828,46340.0,20850,Montgomery,141.39,491.63
+Trader Joe's Indianapolis - W 86th (670),2902 W 86th St,Indianapolis,IN,46268,0.1432136901570342,24965.0,46268,Marion,104.62,233.07
+Trader Joe's Sarasota (761),4101 S Tamiami Trail,Sarasota,FL,34231,0.2343748812868086,30268.0,34231,Sarasota,138.51,321.12
+Trader Joe's Santa Cruz (193),700 Front St,Santa Cruz,CA,95060,0.0805261998154756,46377.0,95060,Santa Cruz,83.13,227.55
+Trader Joe's Monterey (204),570 Munras Ave,Monterey,CA,93940,0.1211782025056397,31615.0,93940,Monterey,110.59,271.69
+Trader Joe's Agoura Hills (247),28941 Canwood St,Agoura Hills,CA,91301,0.0638004742006429,25488.0,91301,Los Angeles,78.49,221.73
+Trader Joe's Glendale (711),5600 N Port Washington Rd,Milwaukee,WI,53217,0.0516002268761557,29192.0,53217,Milwaukee,64.99,193.31
+Trader Joe's Allston (561),199 North Harvard Street,Allston,MA,02134,0.0591328656589247,21503.0,02134,Suffolk,101.06,262.37
+Trader Joe's Merrick (553),1714 Merrick Rd,Merrick,NY,11566,0.0722471024431388,35321.0,11566,Nassau,140.85,403.13
+Trader Joe's Woodmere (676),28425 Chagrin Blvd,Woodmere,OH,44122,0.0507094638021761,34057.0,44122,Cuyahoga,68.41,176.63
+Trader Joe's Silver Lake (17),2738 Hyperion Ave,Los Angeles,CA,90027,0.0621585546029084,45151.0,90027,Los Angeles,98.33,231.84
+Trader Joe's Cathedral City (118),67720 E Palm Canyon Dr,Cathedral City,CA,92234,0.092129724318432,51151.0,92234,Riverside,100.59,258.55
+Trader Joe's Emeryville (72),5700 Christie Ave,Emeryville,CA,94608,0.0505377317492748,28019.0,94608,Alameda,100.43,293.99
+Trader Joe's Westwood (234),1000 Glendon Ave,Los Angeles,CA,90024,0.0550821077970683,47452.0,90024,Los Angeles,143.13,301.28
+Trader Joe's Dallas  -  Lower Greenville (403),2001 Greenville Ave,Dallas,TX,75206,0.0847243877463361,36248.0,75206,Dallas,169.1,467.27
+Trader Joe's Pittsburgh North Hills (624),9020 Covenant Ave,Pittsburgh,PA,15237,0.0974614219850412,41895.0,15237,Allegheny,111.22,313.63
+Trader Joe's Chula Vista (120),878 Eastlake Pkwy,Chula Vista,CA,91914,0.1293361249595318,15448.0,91914,San Diego,258.37,459.71
+Trader Joe's Corona (213),2790 Cabot Dr,Corona,CA,92883,0.171300577834649,29301.0,92883,Riverside,65.07,183.4
+Trader Joe's Hingham (530),5 Essington Drive,Hingham,MA,02043,0.0523665942414815,22157.0,02043,Plymouth,162.88,371.46
+Trader Joe's Roswell (733),635 W Crossville Rd,Roswell,GA,30075,0.0754193254737814,52573.0,30075,Fulton,91.1,271.74
+Trader Joe's Torrance - Rolling Hills Plaza (29),2545 Pacific Coast Hwy,Torrance,CA,90505,0.0737747244845989,36678.0,90505,Los Angeles,107.51,231.07
+Trader Joe's La Grange (685),25 N La Grange Rd,La Grange,IL,60525,0.0804814065292185,31168.0,60525,Cook,97.92,287.27
+Trader Joe's Riverside (15),6225 Riverside Plaza,Riverside,CA,92506,0.109762869447331,44001.0,92506,Riverside,99.86,323.52
+Trader Joe's Del Mar (223 ),13480 Highlands Place,San Diego,CA,92130,0.0769553472981323,48940.0,92130,San Diego,134.18,364.24
+Trader Joe's Vancouver (136),305 SE Chkalov Dr,Vancouver,WA,98683,0.084567916011298,30832.0,98683,Clark,73.82,200.27
+Trader Joe's West Hartford (526),1489 New Britain Ave,West Hartford,CT,06110,0.0935506126624397,12650.0,06110,Hartford,67.08,200.98
+Trader Joe's Portland (519),87 Marginal Way,Portland,ME,04101,0.0786226061976261,17227.0,04101,Cumberland,49.12,113.37
+Trader Joe's Irvine - University Ctr (111),4225 Campus Dr,Irvine,CA,92612,0.05677607284092201,27522.0,92612,Orange,134.79,354.96
+Trader Joe's Essex Crossing (538),400 Grand St. (Cellar),New York,NY,10002,0.1272784949526708,81410.0,10002,New York,130.18,251.7
+Trader Joe's Bellingham (151),2410 James St,Bellingham,WA,98225,0.1181348498504211,46172.0,98225,Whatcom,105.71,248.23
+Trader Joe's Somerville (560),145 Middlesex Ave,Somerville,MA,02145,0.0526819049485735,25439.0,02145,Middlesex,103.67,233.32
+Trader Joe's Cary (741),1393 Kildaire Farm Rd,Cary,NC,27511,0.0680867497415302,32029.0,27511,Wake,119.2,290.97
+Trader Joe's Columbus (679),3888 Townsfair Way,Columbus,OH,43219,0.1832710052765636,27123.0,43219,Franklin,61.24,146.07
+Trader Joe's Palo Alto (207),855 El Camino Real,Palo Alto,CA,94301,0.04480882149693799,16995.0,94301,Santa Clara,156.17,474.47
+Trader Joe's Livermore (208),1122 A East Stanley Blvd,Livermore,CA,94550,0.0858996595581779,46896.0,94550,Alameda,105.5,266.25
+Trader Joe's Clackamas (152),9345 SE 82nd Ave,Clackamas,OR,97086,0.1467542254896743,26010.0,97086,Clackamas,99.54,256.5
+Trader Joe's Arlington - Clarendon (640),1109 N Highland St,Arlington,VA,22201,0.0301135620606845,33476.0,22201,Arlington,140.28,361.03
+Trader Joe's Florham Park (604),176 Columbia Turnpike,Florham Park,NJ,07932,0.0622069261598343,9868.0,07932,Morris,113.54,226.39
+Trader Joe's Dallas Knox (400),4525 Cole Ave,Dallas,TX,75205,0.0892452280635223,23061.0,75205,Dallas,172.64,412.27
+Trader Joe's Towson (649),800 Kenilworth Drive,Towson,MD,21204,0.0486111595249199,20253.0,21204,Baltimore County,177.06,379.9
