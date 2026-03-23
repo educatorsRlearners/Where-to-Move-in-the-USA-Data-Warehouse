@@ -118,6 +118,7 @@ dmypy.json
 # VSCODE IDE
 .vscode
 .vscode/*
+.vscode/settings.json
 
 #Pycharm IDE
 .idea
