@@ -136,6 +136,6 @@ def get_store_info(url: str) -> List[str]:
 def create_dataframe():
     store_info = [get_store_info(store) for store in all_store_urls]
 
-    info = ["store_name", "street", "city", "state", "zip", "phone", "website"]
+    info = ["store_name", "street", "city", "state", "zip_code", "phone_number", "url"]
 
     return pd.DataFrame(store_info, columns=info)
