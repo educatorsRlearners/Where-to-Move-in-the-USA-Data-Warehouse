@@ -73,6 +73,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+tester.ipynb
 
 # IPython
 profile_default/
@@ -96,6 +97,7 @@ ENV/
 env.bak/
 venv.bak/
 .DS_Store
+database.ini
 
 # Spyder project settings
 .spyderproject
