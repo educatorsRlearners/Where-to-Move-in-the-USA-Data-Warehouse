@@ -1,7 +1,7 @@
-import psycopg2
-from psycopg2.extras import executemany
-from config import load_config
 import pandas as pd
+import psycopg2
+
+from config import load_config
 from typing import List, Optional
 
 
@@ -10,7 +10,7 @@ def upsert_dataframe_batch(
     table_name: str,
     conflict_column: str,
     batch_size: int = 1000,
-    columns: List[str] = None,
+    columns: Optional[List[str]] = None,
     config_func=load_config,
 ) -> int:
     """
