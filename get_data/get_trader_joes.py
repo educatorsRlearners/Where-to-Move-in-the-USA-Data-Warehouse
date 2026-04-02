@@ -1,14 +1,11 @@
 from bs4 import BeautifulSoup
 from itertools import chain
 from typing import List, Optional
+from constants import BASE_URL, BLANK, COMING_SOON, STORE_COLUMNS
 
 import pandas as pd
 import re
 import requests
-
-BASE_URL = "https://locations.traderjoes.com"
-BLANK = "Blank"
-COMING_SOON = "Coming Soon"
 
 
 def get_contentbegin(url: str):
@@ -133,16 +130,7 @@ def create_dataframe() -> pd.DataFrame:
     store_info = [get_store_info(store) for store in all_store_urls]
 
     print(f"Total stores found: {len(store_info)}")
-    columns = [
-        "store_number",
-        "store_name",
-        "street",
-        "city",
-        "state",
-        "zip_code",
-        "phone_number",
-        "url",
-    ]
+    columns = STORE_COLUMNS
 
     return pd.DataFrame(store_info, columns=columns)
 
