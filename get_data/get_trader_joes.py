@@ -109,11 +109,6 @@ def _extract_store_number(url: str) -> str:
     return url.split("/")[-2]
 
 
-def _extract_store_number(url: str) -> str:
-    match = re.search(r"/(\d+)/?$", url)
-    return match.group(1) if match else BLANK
-
-
 def get_store_info(url: str) -> List[str]:
     results = get_contentbegin(url)
     if not results:
