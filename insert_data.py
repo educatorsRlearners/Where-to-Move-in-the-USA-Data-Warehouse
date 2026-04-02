@@ -1,0 +1,72 @@
+import psycopg2
+from psycopg2.extras import executemany
+from config import load_config
+import pandas as pd
+from typing import List, Optional
+
+
+def upsert_dataframe_batch(
+    df: pd.DataFrame,
+    table_name: str,
+    conflict_column: str,
+    batch_size: int = 1000,
+    columns: List[str] = None,
+    config_func=load_config,
+) -> int:
+    """
+    Upserts a DataFrame into a Postgres table in batches of 1k by default. Returns the number of rows upserted.
+    """
+    if df.empty:
+        print("DataFrame is empty.")
+        return 0
+
+    total_rows = 0
+    conn = None
+
+    try:
+        config = config_func()
+        with psycopg2.connect(**config) as conn:
+            print(f"Connected. Processing {len(df)} rows in batches of {batch_size}...")
+
+            if columns is None:
+                columns = [col for col in df.columns if col != "id"]
+
+            temp_df = df[columns].fillna("")
+            if "store_number" in columns:
+                temp_df["store_number"] = pd.to_numeric(
+                    temp_df["store_number"], errors="coerce"
+                ).fillna("")
+
+            rows = temp_df.astype(str).apply(tuple, axis=1).tolist()
+
+            # Process in batches
+            for i in range(0, len(rows), batch_size):
+                batch = rows[i : i + batch_size]
+
+                placeholders = ", ".join(["%s"] * len(columns))
+                set_clause = ", ".join([f"{col} = EXCLUDED.{col}" for col in columns])
+
+                sql = f"""
+                    INSERT INTO {table_name} ({', '.join(columns)})
+                    VALUES ({placeholders})
+                    ON CONFLICT ({conflict_column}) DO UPDATE SET
+                        {set_clause}
+                """
+
+                with conn.cursor() as cur:
+                    cur.executemany(sql, batch)
+                    conn.commit()
+
+                batch_rows = len(batch)
+                total_rows += batch_rows
+                print(f"  Batch {i//batch_size + 1}: {batch_rows} rows")
+
+            print(f"✅ Completed: {total_rows} total rows upserted")
+            return total_rows
+
+    except Exception as error:
+        print(f"❌ Error: {error}")
+        return 0
+    finally:
+        if conn:
+            conn.close()
