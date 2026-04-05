@@ -50,3 +50,22 @@ INTERNET_SPEED_COLUMNS = [
     "all25_3_2015",
     "all100_3_1",
 ]
+
+INTERNET_SPEED_INT_COLUMNS = [
+    "population",
+    "wiredcount_2020",
+    "fwcount_2020",
+    "allprovidercount_2020",
+    "wired25_3_2020",
+    "wired100_3_2020",
+    "all25_3_2020",
+    "all100_3_2020",
+    "testcount",
+    "wiredcount_2015",
+    "fwcount_2015",
+    "allprovidercount_2015",
+    "wired25_3_2015",
+    "wired100_3_2015",
+    "all25_3_2015",
+    "all100_3_1",
+]
