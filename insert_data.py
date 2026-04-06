@@ -16,8 +16,6 @@ def insert_df(df: pd.DataFrame, table_name: str, columns: Optional[List[str]] = 
         columns (Optional[List[str]], optional): Column names. Defaults to None.
     """
     config = load_config()
-
-    # Convert to CSV string (milliseconds)
     csv_buffer = StringIO()
     df[columns].to_csv(csv_buffer, index=False, na_rep="\\N", header=False)
     csv_buffer.seek(0)
