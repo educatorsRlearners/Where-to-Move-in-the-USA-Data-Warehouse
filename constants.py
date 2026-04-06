@@ -51,6 +51,12 @@ INTERNET_SPEED_COLUMNS = [
     "all100_3_1",
 ]
 
+INTERNET_SPEED_FLOAT_COLUMNS = [
+    "averagembps",
+    "fastestaveragembps",
+    "lowest_priced_terrestrial_broadband",
+]
+
 INTERNET_SPEED_INT_COLUMNS = [
     "population",
     "wiredcount_2020",
