@@ -1,0 +1,27 @@
+CREATE TABLE IF NOT EXISTS internet_speeds (
+    id BIGSERIAL PRIMARY KEY
+    , zip VARCHAR(10) NOT NULL
+    , population INTEGER
+    , county VARCHAR(100) NOT NULL
+    , state VARCHAR(50) NOT NULL
+    , wiredcount_2020 INTEGER
+    , fwcount_2020 INTEGER
+    , allprovidercount_2020 INTEGER
+    , wired25_3_2020 INTEGER
+    , wired100_3_2020 INTEGER
+    , all25_3_2020 INTEGER
+    , all100_3_2020 INTEGER
+    , testcount INTEGER
+    , averagembps DOUBLE PRECISION
+    , fastestaveragembps DOUBLE PRECISION
+    , access_terrestrial_broadband VARCHAR(50)
+    , lowest_priced_terrestrial_broadband DOUBLE PRECISION
+    , wiredcount_2015 INTEGER
+    , fwcount_2015 INTEGER
+    , allprovidercount_2015 INTEGER
+    , wired25_3_2015 INTEGER
+    , wired100_3_2015 INTEGER
+    , all25_3_2015 INTEGER
+    , all100_3_1 INTEGER
+    , UNIQUE(zip)
+);
