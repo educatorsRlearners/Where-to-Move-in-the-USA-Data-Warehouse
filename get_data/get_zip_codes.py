@@ -1,5 +1,6 @@
 import pandas as pd
 import zipcodes
+from constants import STATES_TO_OMIT
 
 
 def import_us_zip_codes() -> pd.DataFrame:
@@ -9,10 +10,13 @@ def import_us_zip_codes() -> pd.DataFrame:
     # Create Dataframe
     df = pd.DataFrame(all_zips)
 
-    # Filter for just US ZipCodes
+    # Filter for just US Zip Codes
     df_US = df[df["country"] == "US"]
 
-    return df_US
+    # Keep only continental US Zip Codes
+    continental_us = df_US[~df_US["state"].isin(STATES_TO_OMIT)]
+
+    return continental_us
 
 
 if __name__ == "main":
