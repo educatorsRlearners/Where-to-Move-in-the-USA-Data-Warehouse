@@ -75,3 +75,19 @@ INTERNET_SPEED_INT_COLUMNS = [
     "all25_3_2015",
     "all100_3_1",
 ]
+
+STATES_TO_OMIT = [
+    "AA",
+    "AE",
+    "AK",
+    "AP",
+    "AS",
+    "FM",
+    "GU",
+    "HI",
+    "MH",
+    "MP",
+    "PR",
+    "PW",
+    "VI",
+]
