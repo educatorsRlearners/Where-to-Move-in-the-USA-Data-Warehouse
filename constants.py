@@ -10,8 +10,8 @@ CREATE_STORES_SQL = "sql/create_stores.sql"
 CREATE_INTERNET_SPEEDS_SQL = "sql/create_internet_speeds.sql"
 
 # Table Names
-STORES_TABLE = "stores"
-INTERNET_SPEED_TABLE = "internet_speeds"
+STORES_TABLE = "raw.stores"
+INTERNET_SPEED_TABLE = "raw.internet_speeds"
 
 STORE_COLUMNS = [
     "store_number",
