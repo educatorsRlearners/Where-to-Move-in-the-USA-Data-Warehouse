@@ -121,18 +121,58 @@ def get_store_info(url: str) -> List[str]:
     store_name_raw = phone_link.get("data-galoc") if phone_link else None
     store_name = _extract_store_name(store_name_raw)
     phone_number = _parse_phone_link(phone_link)
-
     return [store_number, store_name] + address + [phone_number, url]
 
 
-def create_dataframe() -> pd.DataFrame:
+def write_store_urls_to_csv(urls_csv: str = "../data/store_urls.csv") -> list[str]:
+    """Fetch all store URLs and write them to a CSV file"""
     all_store_urls = get_all_store_urls()
-    store_info = [get_store_info(store) for store in all_store_urls]
 
-    print(f"Total stores found: {len(store_info)}")
-    columns = STORE_COLUMNS
+    urls_df = pd.DataFrame(all_store_urls, columns=["url"])
+    urls_df.to_csv(urls_csv, index=False)
 
-    return pd.DataFrame(store_info, columns=columns)
+    print(f"Total store URLs: {len(all_store_urls)}")
+    print(f"Store URLs written to {urls_csv}")
+
+    return all_store_urls
+
+
+def create_dataframe(
+    urls_csv: str = "./data/store_urls.csv",
+    output_csv: str = "./data/stores.csv",
+    batch_size: int = 25,
+) -> pd.DataFrame:
+    """Read store URLs from CSV, process in batches, and write results to CSV"""
+    # Read store URLs from CSV
+    urls_df = pd.read_csv(urls_csv)
+    all_store_urls = urls_df["url"].tolist()
+
+    result_df = pd.DataFrame(columns=STORE_COLUMNS)
+
+    # Process in batches
+    for batch_num, i in enumerate(range(0, len(all_store_urls), batch_size)):
+        batch_urls = all_store_urls[i : i + batch_size]
+        print(
+            f"\nProcessing batch {batch_num + 1}: stores {i + 1} to {min(i + batch_size, len(all_store_urls))}"
+        )
+
+        for store_url in batch_urls:
+            store_info = get_store_info(store_url)
+            new_row = pd.DataFrame([store_info], columns=STORE_COLUMNS)
+            result_df = pd.concat([result_df, new_row], ignore_index=True)
+
+        # Write batch to CSV
+        mode = "w" if i == 0 else "a"
+        header = i == 0
+        result_df[len(result_df) - len(batch_urls) :].to_csv(
+            output_csv, mode=mode, header=header, index=False
+        )
+        print(f"Batch {batch_num + 1} written to {output_csv}")
+
+    print(f"\nTotal stores processed: {len(result_df)}")
+    print(f"All data written to {output_csv}")
+
+    return result_df
 
 
 if __name__ == "__main__":
