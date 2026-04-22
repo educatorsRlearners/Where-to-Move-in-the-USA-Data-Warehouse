@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS stores (
+CREATE TABLE IF NOT EXISTS raw.stores (
             id SERIAL PRIMARY Key
             , store_number INTEGER
             , store_name TEXT NOT NULL

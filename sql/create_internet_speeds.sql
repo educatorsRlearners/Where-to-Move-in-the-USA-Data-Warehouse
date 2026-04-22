@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS internet_speeds (
+CREATE TABLE IF NOT EXISTS raw.internet_speeds (
     id BIGSERIAL PRIMARY KEY
     , zip VARCHAR(10) NOT NULL
     , population INTEGER

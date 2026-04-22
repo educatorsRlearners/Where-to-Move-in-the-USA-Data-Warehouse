@@ -14,6 +14,9 @@ def create_tables(command: str):
         with psycopg2.connect(**config) as conn:
             print("Connected to the PostgreSQL server.")
             with conn.cursor() as cur:
+                # create the raw schema if it doesn't exist
+                cur.execute("CREATE SCHEMA IF NOT EXISTS raw;")
+                print("Schema 'raw' created or already exists.")
                 # create the table
                 cur.execute(command)
                 print("Table created successfully.")
