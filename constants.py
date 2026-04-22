@@ -12,6 +12,18 @@ CREATE_INTERNET_SPEEDS_SQL = "sql/create_internet_speeds.sql"
 # Table Names
 STORES_TABLE = "raw.stores"
 INTERNET_SPEED_TABLE = "raw.internet_speeds"
+PUBLIC_TRANSIT_TABLE = "raw.public_transit"
+
+# Column names
+PUBLIC_TRANSIT_COLUMNS = [
+    "place",
+    "name",
+    "blkgrps",
+    "population",
+    "households",
+    "alltransit_performance_score",
+]
+
 
 STORE_COLUMNS = [
     "store_number",
