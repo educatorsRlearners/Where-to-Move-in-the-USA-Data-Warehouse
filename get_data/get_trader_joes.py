@@ -147,28 +147,27 @@ def create_dataframe(
     urls_df = pd.read_csv(urls_csv)
     all_store_urls = urls_df["url"].tolist()
 
-    result_df = pd.DataFrame(columns=STORE_COLUMNS)
+    rows = []
 
-    # Process in batches
     for batch_num, i in enumerate(range(0, len(all_store_urls), batch_size)):
         batch_urls = all_store_urls[i : i + batch_size]
         print(
             f"\nProcessing batch {batch_num + 1}: stores {i + 1} to {min(i + batch_size, len(all_store_urls))}"
         )
 
-        for store_url in batch_urls:
-            store_info = get_store_info(store_url)
-            new_row = pd.DataFrame([store_info], columns=STORE_COLUMNS)
-            result_df = pd.concat([result_df, new_row], ignore_index=True)
+        batch_rows = [get_store_info(url) for url in batch_urls]
+        rows.extend(batch_rows)
 
         # Write batch to CSV
         mode = "w" if i == 0 else "a"
         header = i == 0
-        result_df[len(result_df) - len(batch_urls) :].to_csv(
+        pd.DataFrame(batch_rows, columns=STORE_COLUMNS).to_csv(
             output_csv, mode=mode, header=header, index=False
         )
         print(f"Batch {batch_num + 1} written to {output_csv}")
 
+    result_df = pd.DataFrame(rows, columns=STORE_COLUMNS)
+    result_df["store_number"] = pd.to_numeric(result_df["store_number"], errors="coerce").fillna(pd.NA)
     print(f"\nTotal stores processed: {len(result_df)}")
     print(f"All data written to {output_csv}")
 
