@@ -19,5 +19,5 @@ def import_us_zip_codes() -> pd.DataFrame:
     return continental_us
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     df = import_us_zip_codes()

@@ -1,6 +1,6 @@
 import psycopg2
 from config import load_config
-from constants import CREATE_INTERNET_SPEEDS_SQL, CREATE_STORES_SQL
+from constants import CREATE_INTERNET_SPEEDS_SQL, CREATE_STORES_SQL, CREATE_EPA_SMART_LOCATION_SQL
 
 
 def create_tables(command: str):
@@ -31,3 +31,4 @@ def create_tables(command: str):
 if __name__ == "__main__":
     create_tables(command=open(CREATE_STORES_SQL).read())
     create_tables(command=open(CREATE_INTERNET_SPEEDS_SQL).read())
+    create_tables(command=open(CREATE_EPA_SMART_LOCATION_SQL).read())

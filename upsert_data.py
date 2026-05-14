@@ -32,10 +32,6 @@ def upsert_dataframe_batch(
                 columns = [col for col in df.columns if col != "id"]
 
             temp_df = df[columns].copy().replace("", pd.NA)
-            if "store_number" in columns:
-                temp_df["store_number"] = pd.to_numeric(
-                    temp_df["store_number"], errors="coerce"
-                ).fillna(pd.NA)
 
             rows = [
                 tuple(None if pd.isna(value) else value for value in row)
