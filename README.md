@@ -62,7 +62,6 @@ get_data/
     get_trader_joes.py        # Scrapes store locations
     get_internet_speeds.py    # Downloads broadband data
     get_epa_smart_location.py # Downloads EPA SLD, crosswalks to ZIP level
-    get_zip_codes.py          # US ZIP code reference data
 sql/
     create_stores.sql
     create_internet_speeds.sql
