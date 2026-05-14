@@ -30,53 +30,11 @@ STORE_COLUMNS = [
 
 INTERNET_SPEED_COLUMNS = [
     "zip",
-    "population",
-    "county",
-    "state",
-    "wiredcount_2020",
-    "fwcount_2020",
-    "allprovidercount_2020",
-    "wired25_3_2020",
-    "wired100_3_2020",
-    "all25_3_2020",
-    "all100_3_2020",
-    "testcount",
-    "averagembps",
-    "fastestaveragembps",
-    "access_terrestrial_broadband",
-    "lowest_priced_terrestrial_broadband",
-    "wiredcount_2015",
-    "fwcount_2015",
-    "allprovidercount_2015",
-    "wired25_3_2015",
-    "wired100_3_2015",
-    "all25_3_2015",
-    "all100_3_1",
-]
-
-INTERNET_SPEED_FLOAT_COLUMNS = [
-    "averagembps",
-    "fastestaveragembps",
-    "lowest_priced_terrestrial_broadband",
-]
-
-INTERNET_SPEED_INT_COLUMNS = [
-    "population",
-    "wiredcount_2020",
-    "fwcount_2020",
-    "allprovidercount_2020",
-    "wired25_3_2020",
-    "wired100_3_2020",
-    "all25_3_2020",
-    "all100_3_2020",
-    "testcount",
-    "wiredcount_2015",
-    "fwcount_2015",
-    "allprovidercount_2015",
-    "wired25_3_2015",
-    "wired100_3_2015",
-    "all25_3_2015",
-    "all100_3_1",
+    "avg_download_mbps",
+    "avg_upload_mbps",
+    "avg_latency_ms",
+    "tests",
+    "devices",
 ]
 
 EPA_SMART_LOCATION_COLUMNS = [
