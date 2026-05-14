@@ -1,9 +1,10 @@
 from configparser import ConfigParser
+from pathlib import Path
 
 
 def load_config(filename="database.ini", section="postgresql"):
     parser = ConfigParser()
-    parser.read(filename)
+    parser.read(Path(__file__).parent / filename)
 
     # get section, default to postgresql
     config = {}
