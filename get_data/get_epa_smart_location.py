@@ -120,6 +120,7 @@ def get_epa_smart_location(cache_dir: str = "data/00.raw/epa_sld") -> pd.DataFra
         )
     )
 
+    result["population"] = result["population"].astype(int)
     return result
 
 

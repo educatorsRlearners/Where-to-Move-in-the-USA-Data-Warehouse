@@ -92,6 +92,7 @@ def get_internet_speeds_df(cache_dir: str = "data/00.raw/ookla") -> pd.DataFrame
         .reset_index()
     )
 
+    result[["tests", "devices"]] = result[["tests", "devices"]].astype(int)
     return result
 
 

@@ -167,7 +167,7 @@ def create_dataframe(
         print(f"Batch {batch_num + 1} written to {output_csv}")
 
     result_df = pd.DataFrame(rows, columns=STORE_COLUMNS)
-    result_df["store_number"] = pd.to_numeric(result_df["store_number"], errors="coerce").fillna(pd.NA)
+    result_df["store_number"] = pd.to_numeric(result_df["store_number"], errors="coerce").astype("Int64")
     print(f"\nTotal stores processed: {len(result_df)}")
     print(f"All data written to {output_csv}")
 
