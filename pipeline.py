@@ -14,12 +14,11 @@ from get_data.get_internet_speeds import get_internet_speeds_df
 from get_data.get_trader_joes import create_dataframe
 from load_data import load_df
 
-ALL_PIPES = {"stores", "internet_speeds", "epa_smart_location"}
-
 
 def run(pipes=None):
-    if pipes is None:
-        pipes = ALL_PIPES
+    if pipes is None or len(pipes) == 0:
+        print("Please select the pipes you wish to run.")
+        return
 
     if "stores" in pipes:
         print(
