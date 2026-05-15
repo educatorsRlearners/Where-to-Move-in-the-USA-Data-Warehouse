@@ -57,4 +57,4 @@ def run(pipes=None):
 
 
 if __name__ == "__main__":
-    run(pipes=["internet_speeds", "epa_smart_location"])
+    run()
