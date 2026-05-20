@@ -1,14 +1,13 @@
 import psycopg2
 from config import load_config
-from constants import CREATE_INTERNET_SPEEDS_SQL, CREATE_STORES_SQL, CREATE_EPA_SMART_LOCATION_SQL
+from constants import CREATE_INTERNET_SPEEDS_SQL, CREATE_STORES_SQL, CREATE_EPA_SLD_SQL, CREATE_ZCTA_TRACT_SQL
 
 
-def create_tables(command: str):
+def create_tables(command: str, config_func=load_config):
     """create tables in the PostgreSQL database"""
     conn = None
     try:
-        # read the connection parameters
-        config = load_config()
+        config = config_func()
 
         # connect to the PostgreSQL server
         with psycopg2.connect(**config) as conn:
@@ -31,4 +30,5 @@ def create_tables(command: str):
 if __name__ == "__main__":
     create_tables(command=open(CREATE_STORES_SQL).read())
     create_tables(command=open(CREATE_INTERNET_SPEEDS_SQL).read())
-    create_tables(command=open(CREATE_EPA_SMART_LOCATION_SQL).read())
+    create_tables(command=open(CREATE_EPA_SLD_SQL).read())
+    create_tables(command=open(CREATE_ZCTA_TRACT_SQL).read())
