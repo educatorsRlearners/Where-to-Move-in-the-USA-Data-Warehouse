@@ -82,4 +82,4 @@ def run(pipes=None, branch="production"):
 
 
 if __name__ == "__main__":
-    run(pipes=["epa_smart_location"], branch="dev")
+    run()
