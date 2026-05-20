@@ -8,12 +8,14 @@ COMING_SOON = "Coming Soon"
 # SQL
 CREATE_STORES_SQL = "sql/create_stores.sql"
 CREATE_INTERNET_SPEEDS_SQL = "sql/create_internet_speeds.sql"
-CREATE_EPA_SMART_LOCATION_SQL = "sql/create_epa_smart_location.sql"
+CREATE_EPA_SLD_SQL = "sql/create_epa_sld.sql"
+CREATE_ZCTA_TRACT_SQL = "sql/create_zcta_tract_crosswalk.sql"
 
 # Table Names
 STORES_TABLE = "raw.stores"
 INTERNET_SPEED_TABLE = "raw.internet_speeds"
-EPA_SMART_LOCATION_TABLE = "raw.epa_smart_location"
+EPA_SLD_TABLE = "raw.epa_sld"
+ZCTA_TRACT_TABLE = "raw.zcta_tract_crosswalk"
 
 # Column names
 STORE_COLUMNS = [
@@ -37,14 +39,6 @@ INTERNET_SPEED_COLUMNS = [
     "devices",
 ]
 
-EPA_SMART_LOCATION_COLUMNS = [
-    "zip",
-    "nat_walkability_index",
-    "transit_route_density",
-    "transit_stop_distance",
-    "transit_freq_index",
-    "population",
-]
 
 STATES_TO_OMIT = [
     "AA",
