@@ -7,7 +7,7 @@ from config import load_config
 from typing import List, Optional
 
 
-def insert_df(df: pd.DataFrame, table_name: str, columns: Optional[List[str]] = None):
+def insert_df(df: pd.DataFrame, table_name: str, columns: Optional[List[str]] = None, config_func=load_config):
     """
     Inserts a dataframe into a Postgresql table using the copy command for extremely fast insertion.
 
@@ -16,7 +16,7 @@ def insert_df(df: pd.DataFrame, table_name: str, columns: Optional[List[str]] = 
         table_name (str): Name of the table where the data is to be inserted (can include schema: "schema.table")
         columns (Optional[List[str]], optional): Column names. Defaults to None.
     """
-    config = load_config()
+    config = config_func()
     csv_buffer = StringIO()
     df[columns].to_csv(csv_buffer, index=False, na_rep="\\N", header=False)
     csv_buffer.seek(0)

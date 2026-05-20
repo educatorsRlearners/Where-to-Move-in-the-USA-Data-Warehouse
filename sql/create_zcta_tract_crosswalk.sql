@@ -1,24 +1,24 @@
 CREATE TABLE IF NOT EXISTS raw.zcta_tract_crosswalk (
     id            SERIAL PRIMARY KEY
     -- Geographic identifiers
-    , ZCTA5       TEXT NOT NULL
+    , ZCTA5       TEXT
     , STATE       TEXT
     , COUNTY      TEXT
     , TRACT       TEXT
-    , GEOID       TEXT NOT NULL
+    , GEOID       TEXT
     -- Population & housing overlap (ZCTA ∩ Tract)
-    , POPPT       INTEGER
-    , HUPT        INTEGER
+    , POPPT       DOUBLE PRECISION
+    , HUPT        DOUBLE PRECISION
     , AREAPT      DOUBLE PRECISION
     , AREALANDPT  DOUBLE PRECISION
     -- ZCTA totals
-    , ZPOP        INTEGER
-    , ZHU         INTEGER
+    , ZPOP        DOUBLE PRECISION
+    , ZHU         DOUBLE PRECISION
     , ZAREA       DOUBLE PRECISION
     , ZAREALAND   DOUBLE PRECISION
     -- Tract totals
-    , TRPOP       INTEGER
-    , TRHU        INTEGER
+    , TRPOP       DOUBLE PRECISION
+    , TRHU        DOUBLE PRECISION
     , TRAREA      DOUBLE PRECISION
     , TRAREALAND  DOUBLE PRECISION
     -- ZCTA share percentages

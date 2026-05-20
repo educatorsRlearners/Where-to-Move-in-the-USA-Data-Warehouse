@@ -1,8 +1,8 @@
 CREATE TABLE IF NOT EXISTS raw.epa_sld (
     id           SERIAL PRIMARY KEY
     -- Geographic identifiers
-    , OBJECTID   INTEGER
-    , GEOID10    TEXT NOT NULL
+    , OBJECTID   DOUBLE PRECISION
+    , GEOID10    TEXT
     , GEOID20    TEXT
     , STATEFP    TEXT
     , COUNTYFP   TEXT
@@ -21,21 +21,21 @@ CREATE TABLE IF NOT EXISTS raw.epa_sld (
     , Ac_Land    DOUBLE PRECISION
     , Ac_Unpr    DOUBLE PRECISION
     -- Population & housing
-    , TotPop     INTEGER
-    , CountHU    INTEGER
-    , HH         INTEGER
+    , TotPop     DOUBLE PRECISION
+    , CountHU    DOUBLE PRECISION
+    , HH         DOUBLE PRECISION
     , P_WrkAge   DOUBLE PRECISION
-    , AutoOwn0   INTEGER
+    , AutoOwn0   DOUBLE PRECISION
     , Pct_AO0    DOUBLE PRECISION
-    , AutoOwn1   INTEGER
+    , AutoOwn1   DOUBLE PRECISION
     , Pct_AO1    DOUBLE PRECISION
-    , AutoOwn2p  INTEGER
+    , AutoOwn2p  DOUBLE PRECISION
     , Pct_AO2p   DOUBLE PRECISION
-    , Workers    INTEGER
+    , Workers    DOUBLE PRECISION
     -- Employment by wage
-    , R_LowWageWk  INTEGER
-    , R_MedWageWk  INTEGER
-    , R_HiWageWk   INTEGER
+    , R_LowWageWk  DOUBLE PRECISION
+    , R_MedWageWk  DOUBLE PRECISION
+    , R_HiWageWk   DOUBLE PRECISION
     , R_PCTLOWWAGE DOUBLE PRECISION
     -- Employment by type (5-category)
     , TotEmp     DOUBLE PRECISION
@@ -54,9 +54,9 @@ CREATE TABLE IF NOT EXISTS raw.epa_sld (
     , E8_Hlth    DOUBLE PRECISION
     , E8_Pub     DOUBLE PRECISION
     -- Employee wage
-    , E_LowWageWk  INTEGER
-    , E_MedWageWk  INTEGER
-    , E_HiWageWk   INTEGER
+    , E_LowWageWk  DOUBLE PRECISION
+    , E_MedWageWk  DOUBLE PRECISION
+    , E_HiWageWk   DOUBLE PRECISION
     , E_PctLowWage DOUBLE PRECISION
     -- D1: Density
     , D1A        DOUBLE PRECISION
@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS raw.epa_sld (
     , D1C8_HLTH  DOUBLE PRECISION
     , D1C8_PUB   DOUBLE PRECISION
     , D1D        DOUBLE PRECISION
-    , D1_FLAG    INTEGER
+    , D1_FLAG    DOUBLE PRECISION
     -- D2: Diversity
     , D2A_JPHH   DOUBLE PRECISION
     , D2B_E5MIX  DOUBLE PRECISION
@@ -131,5 +131,5 @@ CREATE TABLE IF NOT EXISTS raw.epa_sld (
     -- Geometry
     , Shape_Length DOUBLE PRECISION
     , Shape_Area   DOUBLE PRECISION
-    , UNIQUE (GEOID10)
+    , UNIQUE (STATEFP, COUNTYFP, TRACTCE, BLKGRPCE)
 );

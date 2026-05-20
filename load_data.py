@@ -42,8 +42,8 @@ def load_df(
         columns = [col for col in df.columns if col != "id"]
 
     if not _table_exists(table_name, config_func):
-        create_tables(command=open(sql_file).read())
-        insert_df(df, table_name, columns=columns)
+        create_tables(command=open(sql_file).read(), config_func=config_func)
+        insert_df(df, table_name, columns=columns, config_func=config_func)
         return len(df)
 
     return upsert_dataframe_batch(
