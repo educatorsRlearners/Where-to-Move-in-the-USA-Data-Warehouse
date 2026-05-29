@@ -3,7 +3,6 @@ import requests
 import pandas as pd
 
 # EPA Smart Location Database v3 (Jan 2021) — block group level, all US
-# Direct CSV; no geospatial libraries required.
 # If this URL breaks, check: https://www.epa.gov/smartgrowth/smart-location-mapping
 EPA_SLD_URL = (
     "https://edg.epa.gov/EPADataCommons/public/OA/"
